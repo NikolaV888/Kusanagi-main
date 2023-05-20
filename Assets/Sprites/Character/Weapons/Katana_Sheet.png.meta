@@ -1,0 +1,2083 @@
+fileFormatVersion: 2
+guid: 6371c5afb003dab45b5c7f81152f5ca5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Katana_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02697dd1a0d1ae448a32a19eaed1a1d6
+      internalID: -809147288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13db643bb99e78449fe5e28cfcffa2c
+      internalID: -912607606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f4de431322534294aa6a7db7bff03
+      internalID: 762027957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b4cb6b7a419da4e8315a6b6a47d22b
+      internalID: -724493442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4a1b110abadf344b26af8ada6d32da
+      internalID: -1501511624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ace6d2a209f104a997365fc5bf8019
+      internalID: 1536066495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cba247966b43644992eef8019150fd
+      internalID: -1678151172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6fbcdd17a03334489de1ba0748590e
+      internalID: 1498712329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d337350195f4be4d9ee08424ce04356
+      internalID: -491661972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a36af6a2f7d5b84986ef4fcd6d2bff7
+      internalID: 2123160609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7520ce2b538eb4699153156e5e74c0
+      internalID: -1569961695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0e71fbcd6997f418c1f00e7b4f8c94
+      internalID: -2124542661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e064e3bcf18c14f9f5ef4c9ce79769
+      internalID: -1684898711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bda655970d6714cb9279f86995b0db
+      internalID: 126642265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b0f2eb212502c49931efb25f9fc7ed
+      internalID: -1902614152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61707a61b6f298147b7b3492d1514918
+      internalID: -1442714093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4511fcc80b094689c1eb91b83c04d
+      internalID: -921619958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9063c50694ae31a4e838c5880eebfc71
+      internalID: -49511174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d31ca5e5d72719428e8fb3d441130db
+      internalID: -1141231773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0c9b7fbb197704a9f1cf4d26a488a9
+      internalID: 1495754390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd44319e46c8bcb4a974c7ef7c972a52
+      internalID: -877600435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2c7876efd663041a06725d2ccbd22d
+      internalID: -631774426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612d5224db28253409d0a32ac0d106b1
+      internalID: -1717115673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268ce610f6110784391764c7f2366d6a
+      internalID: 2025801397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af53e3e46820614baeb94bdc1b4fc53
+      internalID: -1095476862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d58e165754b69344ba1f0fe19771738
+      internalID: -561459945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457cc435f05116641a208a64b77827cd
+      internalID: 1798254701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c19a42641686a49ae690ef7dff16f9
+      internalID: 2018222226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900be228475116b4d9c0e27e0414d441
+      internalID: -1548318192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972671194d7f13744ac1ff12a7477166
+      internalID: -1551889857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9fe3701a8113b4283848e794c8cc89
+      internalID: -2123249061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa842fac02702746bd3293e4fd050a5
+      internalID: -662576907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9390bab2017629f448d3e689079ee48a
+      internalID: 2095101057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5087b84f6f09f63489a317f94f6403fa
+      internalID: 226445251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471174149492a6f488109e77178a4406
+      internalID: -1024560324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435d9b6da9932fa4ea385e6f31c9a1de
+      internalID: -534008325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86551fc4ac59644469d76c2e151319af
+      internalID: 268338893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4c000814277794fa3d4ca954436859
+      internalID: -541732341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a620d639e751e43a8b53b46ad724ea
+      internalID: -607875969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc534a249328c1e41add35cf7b925b44
+      internalID: 1011645258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d53b18faf4ca8429f2110f3b0ca04a
+      internalID: -1686638398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792e7c24db247bb428cb7f73be7174f7
+      internalID: 1377606279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684129ffaeff29a4ebae7aa405c11cd1
+      internalID: 1163982130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32714427e32e4447bd57d54d876fc96
+      internalID: -571318128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19d8ffd48923724db6f15a687da6409
+      internalID: 829695462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa33afd9552531e4ea0819fe4da1d325
+      internalID: 1386674436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6fbd403e6826447915ffbb17112726
+      internalID: 1940402719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b023a72eacbe5449bb9677dc7327290
+      internalID: -1530336267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509c4815386b0a147b4ef24620a4ff1a
+      internalID: 1806582155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebce058ce96babb4bb8384220ae42a60
+      internalID: -1407754969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ed6b6a58303f148b7995f19d36a99e
+      internalID: -952302586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8b902866d443c48a20dad1d37f34b3
+      internalID: -1195123997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc728bd53490cf40abd2899978cc13d
+      internalID: -658156931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5f994ba4ff3564f89e882e26158bfe
+      internalID: -1045393344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be277821dcb7cdb46a1503dd247d31a5
+      internalID: 807925166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c3bbc55236c5a4f959073f1a0eb2d7
+      internalID: 1848081234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3786222ca5349641b924de5736c5129
+      internalID: -1445932787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe7dbcc87b5a43498059b7ab5d4222d
+      internalID: -1339854834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd9ed346143d7b4aa6c97fa2d7d9a6e
+      internalID: -552609370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5f9514623d3114e8f1e341fa3acac6
+      internalID: -15791644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83df7136a1b24a241ac780e8c6c1fb05
+      internalID: -73550125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faacc8e3c1d13ab40af19e2ff8c71815
+      internalID: 333434680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fc222f5627dba4cb5b6ed6703e22d3
+      internalID: 1841809245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d41bd0b51e918488f7c3cdd4c7cdf4
+      internalID: 1014390329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127f7e148494a09479d1aa618cbcc23c
+      internalID: 304975478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f661406bd6b2f74580dc4e148cf966c
+      internalID: -463970416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5121f84d7368ba14d9be431ddfe05e8b
+      internalID: -530188246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c6ff1026ed626488094a5a0697794f
+      internalID: 1902030940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d303308d2db09d04fbd1335c49cab0b5
+      internalID: -1646227292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d1c68278464654ba604e81b9a5a3dd
+      internalID: -614752581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf0539d756b24340a6a72a704153f58
+      internalID: 978859533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cceb62918499046bc5e5944f7dd61e
+      internalID: -368006636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377f67da5e48adf48a588433dc20b901
+      internalID: 2120795639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2f27dc356be2149b2fa041e66a4014
+      internalID: 1634423967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bcfaf0ca24cf34fa7f74a0414a365e
+      internalID: -672906939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f367d32598ee65d4298ef876eecb029a
+      internalID: 287507982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e221024c080c3534493d1f7de9d8ec60
+      internalID: -670196644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45005429fb876b54993602017b959336
+      internalID: -469099303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c57e01143afef44805208cc7324d11
+      internalID: 840862549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14250e69bd0151488022ac09f07aefd
+      internalID: 588317820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedb338b6c5bcf84aa0e4ce24ad063c0
+      internalID: -1879631055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ac1bfd200d9c04db80fcf2d1cb0295
+      internalID: -315183857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d65203b866f154388f462019e36035
+      internalID: -1932609359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333bd6a77c6745d45aeffd4f1b80d09d
+      internalID: -812792192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c885d95d5afec247af35c3a9da3519f
+      internalID: 2057925383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dae9e5b6d6edc44b977f8eec519fd4
+      internalID: -1376464878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180294d045600be4c92aa6b96052168a
+      internalID: -1636326845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Katana_Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f664fdf75649a4bb4a4ea713a2f081
+      internalID: -342313801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bb8686f808da1344b9beac543679ba31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Katana_Sheet_42: 1163982130
+      Katana_Sheet_17: -49511174
+      Katana_Sheet_49: -1407754969
+      Katana_Sheet_57: -1339854834
+      Katana_Sheet_70: 978859533
+      Katana_Sheet_46: 1940402719
+      Katana_Sheet_39: 1011645258
+      Katana_Sheet_45: 1386674436
+      Katana_Sheet_81: -315183857
+      Katana_Sheet_53: -1045393344
+      Katana_Sheet_83: -812792192
+      Katana_Sheet_22: -1717115673
+      Katana_Sheet_4: -1501511624
+      Katana_Sheet_34: -1024560324
+      Katana_Sheet_10: -1569961695
+      Katana_Sheet_62: 1841809245
+      Katana_Sheet_15: -1442714093
+      Katana_Sheet_2: 762027957
+      Katana_Sheet_50: -952302586
+      Katana_Sheet_29: -1551889857
+      Katana_Sheet_11: -2124542661
+      Katana_Sheet_20: -877600435
+      Katana_Sheet_75: 287507982
+      Katana_Sheet_23: 2025801397
+      Katana_Sheet_54: 807925166
+      Katana_Sheet_37: -541732341
+      Katana_Sheet_12: -1684898711
+      Katana_Sheet_26: 1798254701
+      Katana_Sheet_69: -614752581
+      Katana_Sheet_16: -921619958
+      Katana_Sheet_52: -658156931
+      Katana_Sheet_9: 2123160609
+      Katana_Sheet_31: -662576907
+      Katana_Sheet_32: 2095101057
+      Katana_Sheet_71: -368006636
+      Katana_Sheet_55: 1848081234
+      Katana_Sheet_87: -342313801
+      Katana_Sheet_76: -670196644
+      Katana_Sheet_86: -1636326845
+      Katana_Sheet_28: -1548318192
+      Katana_Sheet_72: 2120795639
+      Katana_Sheet_58: -552609370
+      Katana_Sheet_25: -561459945
+      Katana_Sheet_61: 333434680
+      Katana_Sheet_30: -2123249061
+      Katana_Sheet_40: -1686638398
+      Katana_Sheet_65: -463970416
+      Katana_Sheet_36: 268338893
+      Katana_Sheet_73: 1634423967
+      Katana_Sheet_78: 840862549
+      Katana_Sheet_21: -631774426
+      Katana_Sheet_82: -1932609359
+      Katana_Sheet_41: 1377606279
+      Katana_Sheet_48: 1806582155
+      Katana_Sheet_0: -809147288
+      Katana_Sheet_8: -491661972
+      Katana_Sheet_18: -1141231773
+      Katana_Sheet_67: 1902030940
+      Katana_Sheet_63: 1014390329
+      Katana_Sheet_27: 2018222226
+      Katana_Sheet_19: 1495754390
+      Katana_Sheet_3: -724493442
+      Katana_Sheet_24: -1095476862
+      Katana_Sheet_33: 226445251
+      Katana_Sheet_6: -1678151172
+      Katana_Sheet_47: -1530336267
+      Katana_Sheet_84: 2057925383
+      Katana_Sheet_80: -1879631055
+      Katana_Sheet_14: -1902614152
+      Katana_Sheet_5: 1536066495
+      Katana_Sheet_7: 1498712329
+      Katana_Sheet_13: 126642265
+      Katana_Sheet_51: -1195123997
+      Katana_Sheet_64: 304975478
+      Katana_Sheet_43: -571318128
+      Katana_Sheet_68: -1646227292
+      Katana_Sheet_77: -469099303
+      Katana_Sheet_44: 829695462
+      Katana_Sheet_79: 588317820
+      Katana_Sheet_66: -530188246
+      Katana_Sheet_59: -15791644
+      Katana_Sheet_35: -534008325
+      Katana_Sheet_85: -1376464878
+      Katana_Sheet_60: -73550125
+      Katana_Sheet_74: -672906939
+      Katana_Sheet_56: -1445932787
+      Katana_Sheet_1: -912607606
+      Katana_Sheet_38: -607875969
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

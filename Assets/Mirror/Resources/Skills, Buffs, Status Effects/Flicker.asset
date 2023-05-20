@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8404e3305913d064691e7fb780cf5618, type: 3}
+  m_Name: Flicker
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  toolTip: Flicker
+  image: {fileID: -34422575, guid: 2dde12fec083a884686af3512754fa52, type: 3}
+  learnDefault: 1
+  showCastBar: 0
+  cancelCastIfTargetDied: 0
+  allowMovement: 1
+  canBeHotbarred: 0
+  increaseAnimationIndex: 0
+  animationCount: 0
+  predecessor: {fileID: 0}
+  predecessorLevel: 1
+  requiredWeaponCategory: 
+  requiredLevel:
+    baseValue: 0
+    bonusPerLevel: 0
+  requiredSkillExperience:
+    baseValue: 0
+    bonusPerLevel: 0
+  maxLevel: 1
+  substitutePoint: {x: 0, y: 0}
+  chakraCosts:
+    baseValue: 0
+    bonusPerLevel: 0
+  flickerPointCosts:
+    baseValue: 200
+    bonusPerLevel: 0
+  castTime:
+    baseValue: 0
+    bonusPerLevel: 0
+  selfStunTime:
+    baseValue: 0
+    bonusPerLevel: 0
+  cooldown:
+    baseValue: 0.2
+    bonusPerLevel: 0
+  castRange:
+    baseValue: 0
+    bonusPerLevel: 0
+  followUpSkill: {fileID: 11400000, guid: 8696a077b83a6ae439d1699a87fa0012, type: 2}
+  casterVFX: {fileID: 641607305738743863, guid: c628678ed2a6e254a957e0a27e58b750,
+    type: 3}
+  targetVFX: {fileID: 0}
+  ignoreCastAnimation: 0
+  castSound: {fileID: 0}
+  castEndSound: {fileID: 8300000, guid: 6b8946ca7782a0344ba69eb6ae876dbd, type: 3}
+  warpDistance: 4.5
+  warpBlockingLayers:
+    serializedVersion: 2
+    m_Bits: 4115

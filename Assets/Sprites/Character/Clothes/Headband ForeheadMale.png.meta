@@ -1,0 +1,3027 @@
+fileFormatVersion: 2
+guid: 5b3ce15c877d2fb46b192ded8099d47b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Headband ForeheadMale_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58ed50c481bc00469454e6765a3f37f
+      internalID: 67897749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed3ce5c1e0fee846ba70e1256a5f64e
+      internalID: -170609254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a915a5699546bdf48be7616807007b5d
+      internalID: 1962772795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4ee4a87ff9c4540b80ca4ffd545e72
+      internalID: -1432950208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dce37722315d6d4aa0f2469093982dd
+      internalID: -2101620315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0d76ae0a6239d4e9c8a8e04871bd88
+      internalID: 1278890275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c831f08fc1cd3a49b622a94d2d8173a
+      internalID: 675353637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9835374bfe515ba45a88be0319598ec4
+      internalID: 1320849690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3be2e1acedf8949807ce51ae0e560b
+      internalID: 1353849631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7c3916eca98d24cbec5c53bde00bb7
+      internalID: -1203419225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335558c56453f4745a8316e775a522f0
+      internalID: -863220081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596eab57cfa903e45b2606a05f03dae1
+      internalID: 385146361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9161accbfdc0548a63c86c3efe67ee
+      internalID: 534390467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ebf8cc4a831a4a8523d6a7e1dd080
+      internalID: 1136392936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faceae27f3c8f94e9ffda4c88d64dc0
+      internalID: 387645208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44a76947dce1f54fa47f7f13d146bbd
+      internalID: -827979789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b7d6828c313954f8a356fa9ae3f6b2
+      internalID: -237567121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3cc75e8972e30428569f4a22ab8a24
+      internalID: 1944743146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2934c2a4c0d9f41a70913e53784ed7
+      internalID: 1916884765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ac09ea47b774d41af8c5c345cec1a9
+      internalID: 1602978456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77233e993a3e821419b6baa5fa6fc562
+      internalID: 2117114858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_21
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd29ae0b94e83429fec95c53f9ba39
+      internalID: 433065364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_22
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ef9f24f5dddb94ba41f08139bdddb2
+      internalID: 434783018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_23
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478da93b58f6c8149837a14f837738b2
+      internalID: 361361836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_24
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84abb4a4ba180f942b3086ad7b7fc148
+      internalID: 1391832102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_25
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4d3c1037ddcee49885f91b01e9f61f
+      internalID: -268437235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_26
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8223c74ba751a4e905f5988c49fd2f
+      internalID: 571231101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_27
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e0630d3da260146bd241341bab2d62
+      internalID: 1510241660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_28
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e69f4d4fea5fe429acf477194ac75a
+      internalID: -1375728013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_29
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeb787ebbd76f0479d4b8b927723237
+      internalID: 1038981464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_30
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc5a0e339754d947beb488e9bb762e5
+      internalID: -788406515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_31
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d72c77b6cdd684fbe4dc5e07e103a5
+      internalID: -1535733332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_32
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d179bee82a7eb2f4f9d95e0eb567e306
+      internalID: -1430499109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ccd3af726c3e24dbc1ee100afc71f5
+      internalID: -1785441787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe65f2fdbf9ded545a2f3bdb18ef283a
+      internalID: -1111234760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4335540fab1e8284e92ecc7279147f92
+      internalID: -581629265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26289230eda95a4d8254c49b36bcb6a
+      internalID: -264952916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a733cdd872e44042b807a74ac4af59e
+      internalID: -1456210751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1e0ea828ada5d4eadc169d54b3524d
+      internalID: -824216775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48eecf14a85a96e4d952dc3d190f6150
+      internalID: -896329874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_40
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa3f339d1789e742bd7694cf17fa720
+      internalID: 1749097927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_41
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324a358da723bd04281ad714b4679f4a
+      internalID: 2019598996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_42
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5240b53911a634da15843a3bfe26f4
+      internalID: 1256694078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_43
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d356ca456d433ed4bbf25176d25005d1
+      internalID: -959348235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_44
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6789b89e3a15f4db9a6d252f4271c5
+      internalID: 904298861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_45
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc0c0e7868927e4cb52320151ad7382
+      internalID: -192676594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_46
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb4a5798c249cd47bea3ade28db93e3
+      internalID: -1380553673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_47
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a61b09a9a240e42907f014e5324971
+      internalID: 1850154622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_48
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bcc13cc98bf454eaa4f67cd3a5e2ff
+      internalID: -472289102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_49
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77513cf40bbf3340a091db20a1b1d1d
+      internalID: 1906667814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_50
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4d00b00e1442a4aa6378164c3a2957
+      internalID: -69572690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_51
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb6fc627d30de14dae72c2a117d5dab
+      internalID: 701013711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_52
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875f57112ffd5dd4fbcf6cd6f3c110d2
+      internalID: 140674566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_53
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4398f9c8cc613fa41bc57269c8a1e44e
+      internalID: -1551618903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_54
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e946a138388484e862ea1ecf4d9ce6
+      internalID: -973311296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_55
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cbd9240bfe09e44b0ca33c22075b5c
+      internalID: 668482233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_56
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42df73e386a8f394d87c1f0cb4d0512c
+      internalID: 1590494918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_57
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76968782a856d624bb95b1506e6f242f
+      internalID: 624942952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_58
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d1887b49ed52d4fa6ca3ebc9c75ed9
+      internalID: -1818398021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_59
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22ae48492e9a014988427f461d6a93e
+      internalID: -1448104231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_60
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2a10d9383048d448593eb7d5f6fd6b
+      internalID: 765950143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_61
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0e672db8ce2f84bb838e0dfa106b2e
+      internalID: 1350563808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_62
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb48f8515452ff48a0930126eeef3cc
+      internalID: 566426429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_63
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a20dfcd85102004f8b88d9affaa6dec
+      internalID: -1731011348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_64
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb6b2a5cbd3c61409476ef019938d34
+      internalID: -1759859184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_65
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57df3390e7fd6644eb25040777875c8d
+      internalID: 1095552558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e31fe07dcc987146bebd2b73e0342a0
+      internalID: 1385016011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dc354fda8628242936a9cd9121f40a
+      internalID: 368513912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e346e82c8ea8de34d9445f542f8d826f
+      internalID: -323419747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa8d7c157e30c34f8ecf371d9707e92
+      internalID: 1173823373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691654cd8ac80fb4bbd33f5ae958909e
+      internalID: 2136714591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987faf4abfb5e35438ad5757be6179a2
+      internalID: -259797926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_72
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6844b8a705ad56e40a3c15cde1ac78c4
+      internalID: -1164579728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_73
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdfcbde53f06b24e90b258655eb2495
+      internalID: -1404836438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15b377dca2f1594c9a1cd12b8361f6f
+      internalID: -2047306451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_75
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a01fefe5d33cd4e91542338f3f7f3c
+      internalID: 951688591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_76
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94cac00993eedd4f80f74c2523b4b26
+      internalID: -869018685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_77
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986f3488596b61441b1ac1621081baad
+      internalID: 552608284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_78
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace4aced36661f8428a094e65394d9e1
+      internalID: -1106427818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_79
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c348026aa7c27644ba2de8e8a558560
+      internalID: 1485502838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_80
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ee1d1f481745c40a1e56ec95c6432a
+      internalID: 103191827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_81
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7504e411dc1c124e93e121fa48f7ea0
+      internalID: 274514484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_82
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47350f44780cecc4e9a65c67a03ab7f1
+      internalID: -1663541041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_83
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3309d58b6313bda4c8cd2b15b7aaa794
+      internalID: 2040324310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_84
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e4756793fa1045b4166737c39abc4
+      internalID: -1983051829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_85
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec54a5cd21d4fea45837ff0a8313d6f9
+      internalID: -1958765851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_86
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7931e1f2970b39a4a855fc271b9d4416
+      internalID: 1581020305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_87
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8ca8c3ea2384f469aa758e5f6ebb6d
+      internalID: 1304176233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_88
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5195e321308835419535a2e7185148f
+      internalID: -2089088289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_89
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbd2d07e4984ae408a961ee92cdf43f
+      internalID: 1877818141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_90
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d17dfcc3049e044b4bae3f9b883a68
+      internalID: -610391634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_91
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4ef54ba9ba1814aa40c7eb2ef7c5fe
+      internalID: -519664607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_92
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681dee1650ee59479881c8a9ebc1116
+      internalID: 1624079389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_93
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6962edf8dec284eba78847d900311c
+      internalID: 956225730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_94
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0fa8a473c56344bdd341adcbdfc75
+      internalID: -1842806918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_95
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3b957b861ba464cb45996b80bcdf36
+      internalID: -1587278872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_96
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c33ede03b5c8db4190b07e1d50e9a44
+      internalID: 2112979342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_97
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fdf2edcb91f3e469f36189b26df9d7
+      internalID: -1405667639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_98
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9ea03e791d46745bd8a9281a57ae18
+      internalID: -114371581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8170dca129a1c8946b998edec070e38d
+      internalID: -1342121976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5ea2f187b6555408a1768c31b96879
+      internalID: -1005403150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c095f35d2153bda4cbf97bb038b33c35
+      internalID: 1334964353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8c32118cfff3042bc6aab85534c14f
+      internalID: -2093197209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212e3b3202ca2094ca339005a76696a0
+      internalID: -343942036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_104
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857cbdbc5e1bbc64aaa3378639a91225
+      internalID: -507275100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1811e9efc4c652e4e990fc4dcabfc571
+      internalID: 454896411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_106
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc771c1cfd987346b8daadd55df58b8
+      internalID: -814715179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_107
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f72c136778a7f48aad1b760c489a14
+      internalID: -1685087869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_108
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d66956a8136bd4aa0e5816ebebd1ee
+      internalID: -669905606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_109
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e05f7e79bf9a234bac04e7371f71d2c
+      internalID: 571735533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_110
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839667264b184eb4e873cc53aae87727
+      internalID: -1825418272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_111
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d065c1d425a1d46b855691097b1601
+      internalID: -1676019844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_112
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b0938a105367e498ae163e7737322d
+      internalID: 462119761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_113
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020edfceab926e148a34f37f45164d84
+      internalID: -1433170970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_114
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a73788f5223ecb4aaf98039a480d372
+      internalID: -300728232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_115
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3508fcc97f0b41b029c625d482f6b
+      internalID: 312200956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_116
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb856bdd1ab2b4b85d21e369db3784
+      internalID: 1560076616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_117
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c443ddf4dfdb12240b92f2b01a67ee25
+      internalID: -1471758376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_118
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d57b724b2de1504ab30d14f46740f63
+      internalID: 304091094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_119
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eb484a2a2b916499fe72fa1ae5314c
+      internalID: -1651735459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_120
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b13342e6f5369941abfdd9c0d7d9458
+      internalID: -1742581281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_121
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b70fa6f7d9265f4b8e0d7f1ec4f4d3f
+      internalID: 1894406398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_122
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaeb6621100c544e8edc70dc4defc34
+      internalID: -1344554768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_123
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96e834f4e049ce49a1f2e14d233ea93
+      internalID: 2117448288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_124
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c835d23f5f640348bc814006e41c71c
+      internalID: -1663350068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_125
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423febf377769534bba1efe1f7b8197c
+      internalID: 112133171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_126
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b062c6182ce7194eb8fb12a77bcb5f9
+      internalID: 385606349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_127
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ec6adcc99da3c40ba04707e00ae21d
+      internalID: -644357218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_128
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62db5a1d03f16d546838ff18c7bb7890
+      internalID: -2127343684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_129
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693f666df92765641a3a974b0b0d9948
+      internalID: 469870988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_130
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bc1712ba030cc4ab9eebc4e69c1084
+      internalID: 1953422302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Headband ForeheadMale_131
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55088320bb9a8034e88ecc17041fb4b1
+      internalID: -607538500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 96788b495cc583247bf8f426bf72a6a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Headband ForeheadMale_130: 1953422302
+      Headband ForeheadMale_43: -959348235
+      Headband ForeheadMale_125: 112133171
+      Headband ForeheadMale_9: -1203419225
+      Headband ForeheadMale_44: 904298861
+      Headband ForeheadMale_27: 1510241660
+      Headband ForeheadMale_102: -2093197209
+      Headband ForeheadMale_65: 1095552558
+      Headband ForeheadMale_30: -788406515
+      Headband ForeheadMale_77: 552608284
+      Headband ForeheadMale_120: -1742581281
+      Headband ForeheadMale_24: 1391832102
+      Headband ForeheadMale_105: 454896411
+      Headband ForeheadMale_6: 675353637
+      Headband ForeheadMale_1: -170609254
+      Headband ForeheadMale_21: 433065364
+      Headband ForeheadMale_41: 2019598996
+      Headband ForeheadMale_11: 385146361
+      Headband ForeheadMale_34: -1111234760
+      Headband ForeheadMale_96: 2112979342
+      Headband ForeheadMale_68: -323419747
+      Headband ForeheadMale_31: -1535733332
+      Headband ForeheadMale_52: 140674566
+      Headband ForeheadMale_49: 1906667814
+      Headband ForeheadMale_72: -1164579728
+      Headband ForeheadMale_104: -507275100
+      Headband ForeheadMale_38: -824216775
+      Headband ForeheadMale_75: 951688591
+      Headband ForeheadMale_39: -896329874
+      Headband ForeheadMale_28: -1375728013
+      Headband ForeheadMale_82: -1663541041
+      Headband ForeheadMale_55: 668482233
+      Headband ForeheadMale_35: -581629265
+      Headband ForeheadMale_4: -2101620315
+      Headband ForeheadMale_19: 1602978456
+      Headband ForeheadMale_42: 1256694078
+      Headband ForeheadMale_8: 1353849631
+      Headband ForeheadMale_13: 1136392936
+      Headband ForeheadMale_114: -300728232
+      Headband ForeheadMale_48: -472289102
+      Headband ForeheadMale_80: 103191827
+      Headband ForeheadMale_90: -610391634
+      Headband ForeheadMale_79: 1485502838
+      Headband ForeheadMale_109: 571735533
+      Headband ForeheadMale_59: -1448104231
+      Headband ForeheadMale_91: -519664607
+      Headband ForeheadMale_111: -1676019844
+      Headband ForeheadMale_20: 2117114858
+      Headband ForeheadMale_118: 304091094
+      Headband ForeheadMale_73: -1404836438
+      Headband ForeheadMale_32: -1430499109
+      Headband ForeheadMale_89: 1877818141
+      Headband ForeheadMale_92: 1624079389
+      Headband ForeheadMale_26: 571231101
+      Headband ForeheadMale_112: 462119761
+      Headband ForeheadMale_85: -1958765851
+      Headband ForeheadMale_10: -863220081
+      Headband ForeheadMale_87: 1304176233
+      Headband ForeheadMale_122: -1344554768
+      Headband ForeheadMale_93: 956225730
+      Headband ForeheadMale_14: 387645208
+      Headband ForeheadMale_74: -2047306451
+      Headband ForeheadMale_57: 624942952
+      Headband ForeheadMale_81: 274514484
+      Headband ForeheadMale_116: 1560076616
+      Headband ForeheadMale_64: -1759859184
+      Headband ForeheadMale_16: -237567121
+      Headband ForeheadMale_107: -1685087869
+      Headband ForeheadMale_103: -343942036
+      Headband ForeheadMale_40: 1749097927
+      Headband ForeheadMale_71: -259797926
+      Headband ForeheadMale_0: 67897749
+      Headband ForeheadMale_15: -827979789
+      Headband ForeheadMale_95: -1587278872
+      Headband ForeheadMale_88: -2089088289
+      Headband ForeheadMale_46: -1380553673
+      Headband ForeheadMale_45: -192676594
+      Headband ForeheadMale_53: -1551618903
+      Headband ForeheadMale_2: 1962772795
+      Headband ForeheadMale_3: -1432950208
+      Headband ForeheadMale_5: 1278890275
+      Headband ForeheadMale_113: -1433170970
+      Headband ForeheadMale_131: -607538500
+      Headband ForeheadMale_22: 434783018
+      Headband ForeheadMale_127: -644357218
+      Headband ForeheadMale_60: 765950143
+      Headband ForeheadMale_99: -1342121976
+      Headband ForeheadMale_129: 469870988
+      Headband ForeheadMale_76: -869018685
+      Headband ForeheadMale_84: -1983051829
+      Headband ForeheadMale_98: -114371581
+      Headband ForeheadMale_121: 1894406398
+      Headband ForeheadMale_101: 1334964353
+      Headband ForeheadMale_63: -1731011348
+      Headband ForeheadMale_83: 2040324310
+      Headband ForeheadMale_123: 2117448288
+      Headband ForeheadMale_86: 1581020305
+      Headband ForeheadMale_61: 1350563808
+      Headband ForeheadMale_97: -1405667639
+      Headband ForeheadMale_7: 1320849690
+      Headband ForeheadMale_29: 1038981464
+      Headband ForeheadMale_23: 361361836
+      Headband ForeheadMale_50: -69572690
+      Headband ForeheadMale_58: -1818398021
+      Headband ForeheadMale_25: -268437235
+      Headband ForeheadMale_94: -1842806918
+      Headband ForeheadMale_100: -1005403150
+      Headband ForeheadMale_36: -264952916
+      Headband ForeheadMale_67: 368513912
+      Headband ForeheadMale_12: 534390467
+      Headband ForeheadMale_51: 701013711
+      Headband ForeheadMale_117: -1471758376
+      Headband ForeheadMale_56: 1590494918
+      Headband ForeheadMale_106: -814715179
+      Headband ForeheadMale_18: 1916884765
+      Headband ForeheadMale_54: -973311296
+      Headband ForeheadMale_47: 1850154622
+      Headband ForeheadMale_69: 1173823373
+      Headband ForeheadMale_62: 566426429
+      Headband ForeheadMale_126: 385606349
+      Headband ForeheadMale_66: 1385016011
+      Headband ForeheadMale_128: -2127343684
+      Headband ForeheadMale_78: -1106427818
+      Headband ForeheadMale_108: -669905606
+      Headband ForeheadMale_70: 2136714591
+      Headband ForeheadMale_124: -1663350068
+      Headband ForeheadMale_17: 1944743146
+      Headband ForeheadMale_110: -1825418272
+      Headband ForeheadMale_37: -1456210751
+      Headband ForeheadMale_33: -1785441787
+      Headband ForeheadMale_115: 312200956
+      Headband ForeheadMale_119: -1651735459
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

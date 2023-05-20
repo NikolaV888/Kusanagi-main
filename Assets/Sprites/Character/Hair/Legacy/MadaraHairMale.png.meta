@@ -1,0 +1,2083 @@
+fileFormatVersion: 2
+guid: 0fe2547a959d9e44b95e75e3ec9dbe71
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MadaraHairMale_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bdaa8273fa363439de3c6ea95fb897
+      internalID: 1733039947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f7b7135b2e0ee45b5ea04755cd00ac
+      internalID: -1434683513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4838f897246c6242a9ea05c098df36c
+      internalID: 1324576163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a12f0f19f4da9448ad865cca877fb26
+      internalID: 29120411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c063e43ddcd664c8b5d97e36ac8663
+      internalID: -689729613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cea6ce1ed19ab45b00c78e6914ad04
+      internalID: -649052438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0120c938039a4fba085633246f21d
+      internalID: 76026707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a758934f43cb7254cbd8b120f59db7b8
+      internalID: -355183595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73351a8bd0447794a823578b8a3e6611
+      internalID: 207361948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cfda6647ce7a24fa2029f6996efed2
+      internalID: 2007482128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9503012ae0fdfff4b848c68bdb17ceb4
+      internalID: -1412416759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d400b3b3cb95b9544af1f5bf52f1f0dc
+      internalID: -1033915948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae62cd365d35dd4aa6d7251da86bc17
+      internalID: 2097574875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b3d9c33a49fd948a763da08226f7d0
+      internalID: 738533339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35a7fe31acd023419198a5919f45480
+      internalID: -655826642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a75751829b75b469e929467ddcbe0d
+      internalID: -373844482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0ff16c6a28cf34898192047ffb11b6
+      internalID: 1904934743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c16f50012125f0478aef7fefafdddc6
+      internalID: -1981626779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e604b7f9119e0e4da1ed0b3cded7c06
+      internalID: -2017470089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479b209fa2884b84798c9ce6e80ece67
+      internalID: -749004957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52aceba805c1d4098a595f620dcac0
+      internalID: 102289037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_21
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 288
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f293c195e20c449b3e4bbc2b2e1a1c
+      internalID: -1853509477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d0d1d3ff78d2442a68c09b3693c894
+      internalID: -645167690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af07f4c4bd97f5e4b993c3cd6b5a173b
+      internalID: -559868864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c716aaaf1ebe2d4599d4a0c92b7fd5b
+      internalID: 1862847586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975a3520b04b7534785ab5541c3abef9
+      internalID: -789655972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73c46b32c70cbf42b2abb7844c63171
+      internalID: -1129616918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee2a4bd5891a6246845859b849d5900
+      internalID: -1831342925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db308febb80c5c4682b05ae12fcc26f
+      internalID: 1291159795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_29
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59cb52902cd9e48904c2b0a2be2ef5
+      internalID: -322194541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee87344b60b3e50409212506e171d507
+      internalID: 1258931294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_31
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb48d0d7af0049842bfd7b9b907ed8f2
+      internalID: -506236462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_32
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7066bd7740693f4d957a48dca9f6fb4
+      internalID: 1727220316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_33
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da18b3032933b7547b4b0d2141c4c465
+      internalID: -437467364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_34
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d05ab6cda2eb4343864a94f09f2f585
+      internalID: 1781683513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_35
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa1f870f65e4d24894e69c703e3dfc4
+      internalID: 1591283723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_36
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aaa1099fff91a64a9ae5d6f974bae41
+      internalID: 1143408738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_37
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1459dd8c237aaf4f958b79077ae956b
+      internalID: -1849306286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08bbd55994316442a6ae782d8485011
+      internalID: 1213616551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_39
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd00040a2b18f541a6b76c4bf1c263b
+      internalID: -1388865470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_40
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3005fa518d27243448c37284415e178b
+      internalID: 1522650015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_41
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f04464e4cedcd4399363ae22a32bbc
+      internalID: 1135723992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_42
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21132bc05b1f9ed4389562575a7ccb55
+      internalID: 2033809461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_43
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 192
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7d5791e8390c848ad584ff13309d05
+      internalID: -1308451223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764a92ec72512df4986a73e7982d9896
+      internalID: -1869360344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ffa4700c1d8af4e89f38f1a5c92023
+      internalID: -209417802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bc11ae39876084a9ee896d7342cfcf
+      internalID: 93451949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5a2a9be6d1045428fb3f96749655d8
+      internalID: 1946447090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6a74b3a669e774a965fe2293627291
+      internalID: 2106364331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_49
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a82e7c57ce6464ead1a753779fb12f
+      internalID: -647351757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_50
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85aabfe338c4db24892e498c54605c2e
+      internalID: -1187341890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_51
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cf03d80b7f83e43b696fa9d01c81c6
+      internalID: -830361269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab713875722173340a1deb1eb6a7cac6
+      internalID: -2110501290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_53
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3674c6a86f75ed544b73089111192669
+      internalID: 773746788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_54
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b11b02d6f35cb41b52c6054fb77659
+      internalID: 1694372900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_55
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29adc139697cf449b934a62d04df7ed
+      internalID: 915333062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_56
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f9fa9236fc8534bb98ae0b98bb0c0c
+      internalID: -878962497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_57
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4485fdf1b889a76489c10d1c9ff6492a
+      internalID: 61065110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71dcf35ad727de4f84b26b8373d5fc4
+      internalID: 1978422740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_59
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7732244afd3114981e38431eb1525d
+      internalID: 323496248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43187eb7812d42d41bfad3e6d111b62b
+      internalID: 1206813316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_61
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be8a3f9c660eb34f9f8a9c76eabb510
+      internalID: 1801979196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_62
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c82eeb35750212499a52ab39da7d425
+      internalID: 1999577108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_63
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b89664b4d85eff48a3153dc562085fa
+      internalID: 1387048572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_64
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b039ea9a495cccb4c8279a1a13424824
+      internalID: -677424634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_65
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 96
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7400998bc38ca0e4b82549eea3c6ef05
+      internalID: 2125225994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28176de8d2b83f94dbef04f53a32f559
+      internalID: 1709280093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedf0dd82ac6cf9439901a1fda0ce20d
+      internalID: -801579221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a5906e9b490f74eaf91ee011a2b77f
+      internalID: -790074398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7f117f92486854dbe5cf200ad45d18
+      internalID: 1303907732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e0b007bc4d6d46b9a646146e1c260
+      internalID: 1250235997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6fab32f6c8aa84a8afbcec4640d1ac
+      internalID: -1239370913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_72
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd358e6773c0dec4186a3289faeee980
+      internalID: -317263772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_73
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9993b42737ccb3840a4a2e2d43ab447a
+      internalID: 544882098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709f36fa585edf34a8bae3c04ab47b33
+      internalID: -2043230600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_75
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb605ab5e5638d24bb0baeeec5dfdbe6
+      internalID: 510059606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_76
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97174175764bf1c49b4ec0923851cbf6
+      internalID: 1016954884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_77
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e9e2f266777e34e9abd3874faa9e59
+      internalID: -446644087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_78
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7de4ec0c7161941a4facd2b567d6dc
+      internalID: 1128908381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_79
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c558e03a0bb5947bd068ade6720202
+      internalID: -1207779595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_80
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d67e2afbc163f142af24374f6b509e9
+      internalID: 1461008606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_81
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74691fa4e9180840b2b3e0594a0e1e8
+      internalID: 1462412177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_82
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dd6ced353f944479b88dc83e941af5
+      internalID: -485581305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_83
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641ce88bf7b98fe40930c56de0a7f9e3
+      internalID: 1344338887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_84
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7244e3d5831fea4f9c96167fd5bff89
+      internalID: -104919909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_85
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c826a91e44b72b4581980177187449a
+      internalID: -1509918765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_86
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7479d8f7a3c3c0479c45ef057ced2be
+      internalID: 1288652135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MadaraHairMale_87
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd68152f49837b4087bc175b37a2b30
+      internalID: 971994243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: adfdaa7ff8ed6514d8c3e46dc64d41b8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MadaraHairMale_59: 323496248
+      MadaraHairMale_27: -1831342925
+      MadaraHairMale_15: -373844482
+      MadaraHairMale_6: 76026707
+      MadaraHairMale_18: -2017470089
+      MadaraHairMale_25: -789655972
+      MadaraHairMale_8: 207361948
+      MadaraHairMale_57: 61065110
+      MadaraHairMale_10: -1412416759
+      MadaraHairMale_62: 1999577108
+      MadaraHairMale_52: -2110501290
+      MadaraHairMale_79: -1207779595
+      MadaraHairMale_48: 2106364331
+      MadaraHairMale_23: -559868864
+      MadaraHairMale_42: 2033809461
+      MadaraHairMale_45: -209417802
+      MadaraHairMale_86: 1288652135
+      MadaraHairMale_78: 1128908381
+      MadaraHairMale_20: 102289037
+      MadaraHairMale_24: 1862847586
+      MadaraHairMale_3: 29120411
+      MadaraHairMale_37: -1849306286
+      MadaraHairMale_85: -1509918765
+      MadaraHairMale_63: 1387048572
+      MadaraHairMale_65: 2125225994
+      MadaraHairMale_0: 1733039947
+      MadaraHairMale_44: -1869360344
+      MadaraHairMale_58: 1978422740
+      MadaraHairMale_61: 1801979196
+      MadaraHairMale_87: 971994243
+      MadaraHairMale_76: 1016954884
+      MadaraHairMale_71: -1239370913
+      MadaraHairMale_49: -647351757
+      MadaraHairMale_34: 1781683513
+      MadaraHairMale_35: 1591283723
+      MadaraHairMale_28: 1291159795
+      MadaraHairMale_39: -1388865470
+      MadaraHairMale_51: -830361269
+      MadaraHairMale_5: -649052438
+      MadaraHairMale_1: -1434683513
+      MadaraHairMale_9: 2007482128
+      MadaraHairMale_55: 915333062
+      MadaraHairMale_66: 1709280093
+      MadaraHairMale_68: -790074398
+      MadaraHairMale_47: 1946447090
+      MadaraHairMale_50: -1187341890
+      MadaraHairMale_29: -322194541
+      MadaraHairMale_41: 1135723992
+      MadaraHairMale_31: -506236462
+      MadaraHairMale_54: 1694372900
+      MadaraHairMale_67: -801579221
+      MadaraHairMale_80: 1461008606
+      MadaraHairMale_72: -317263772
+      MadaraHairMale_12: 2097574875
+      MadaraHairMale_36: 1143408738
+      MadaraHairMale_64: -677424634
+      MadaraHairMale_84: -104919909
+      MadaraHairMale_38: 1213616551
+      MadaraHairMale_46: 93451949
+      MadaraHairMale_69: 1303907732
+      MadaraHairMale_77: -446644087
+      MadaraHairMale_4: -689729613
+      MadaraHairMale_21: -1853509477
+      MadaraHairMale_2: 1324576163
+      MadaraHairMale_60: 1206813316
+      MadaraHairMale_13: 738533339
+      MadaraHairMale_22: -645167690
+      MadaraHairMale_19: -749004957
+      MadaraHairMale_56: -878962497
+      MadaraHairMale_74: -2043230600
+      MadaraHairMale_43: -1308451223
+      MadaraHairMale_73: 544882098
+      MadaraHairMale_33: -437467364
+      MadaraHairMale_16: 1904934743
+      MadaraHairMale_26: -1129616918
+      MadaraHairMale_70: 1250235997
+      MadaraHairMale_32: 1727220316
+      MadaraHairMale_75: 510059606
+      MadaraHairMale_81: 1462412177
+      MadaraHairMale_40: 1522650015
+      MadaraHairMale_11: -1033915948
+      MadaraHairMale_53: 773746788
+      MadaraHairMale_14: -655826642
+      MadaraHairMale_17: -1981626779
+      MadaraHairMale_30: 1258931294
+      MadaraHairMale_83: 1344338887
+      MadaraHairMale_82: -485581305
+      MadaraHairMale_7: -355183595
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

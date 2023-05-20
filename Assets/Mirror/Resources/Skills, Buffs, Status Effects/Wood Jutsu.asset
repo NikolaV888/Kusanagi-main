@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e648c9d9c41242e3bcf4f05026f0240, type: 3}
+  m_Name: Wood Jutsu
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  toolTip: Fireball, it's kinda hot.
+  image: {fileID: -1251120387, guid: a12224e416928a6429db809f1f063a98, type: 3}
+  learnDefault: 1
+  showCastBar: 0
+  cancelCastIfTargetDied: 0
+  allowMovement: 0
+  canBeHotbarred: 1
+  animationCount: 0
+  predecessor: {fileID: 0}
+  predecessorLevel: 1
+  requiredWeaponCategory: 
+  requiredLevel:
+    baseValue: 0
+    bonusPerLevel: 0
+  requiredSkillExperience:
+    baseValue: 0
+    bonusPerLevel: 0
+  maxLevel: 1
+  substitutePoint: {x: 0, y: 0}
+  chakraCosts:
+    baseValue: 25
+    bonusPerLevel: 0
+  flickerPointCosts:
+    baseValue: 0
+    bonusPerLevel: 0
+  castTime:
+    baseValue: 1
+    bonusPerLevel: 0
+  selfStunTime:
+    baseValue: 0
+    bonusPerLevel: 0
+  cooldown:
+    baseValue: 5
+    bonusPerLevel: 0
+  castRange:
+    baseValue: 0
+    bonusPerLevel: 0
+  followUpSkill: {fileID: 0}
+  casterVFX: {fileID: 0}
+  targetVFX: {fileID: 0}
+  ignoreCastAnimation: 0
+  castSound: {fileID: 0}
+  castEndSound: {fileID: 8300000, guid: 4d745a172f3d10a43bd8bf54ba0a78c5, type: 3}
+  damage:
+    baseValue: 50
+    bonusPerLevel: 1
+  stunChance:
+    baseValue: 0
+    bonusPerLevel: 0
+  stunTime:
+    baseValue: 0
+    bonusPerLevel: 0
+  pushback:
+    baseValue: 0
+    bonusPerLevel: 0
+  peircing: 1
+  projectile: {fileID: 114941114663955406, guid: adccac0cba548094b96dbdf197f98845,
+    type: 3}

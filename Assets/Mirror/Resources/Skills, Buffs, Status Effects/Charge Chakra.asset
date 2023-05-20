@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec926ce05000e4d3e8165891ee7c6f1f, type: 3}
+  m_Name: Charge Chakra
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  toolTip: Charge Chakra
+  image: {fileID: -823674609, guid: f4f0306b00ba27d46a2aef902f135fab, type: 3}
+  learnDefault: 1
+  showCastBar: 0
+  cancelCastIfTargetDied: 0
+  allowMovement: 0
+  canBeHotbarred: 0
+  useFrame: 0
+  animationCount: 0
+  predecessor: {fileID: 0}
+  predecessorLevel: 1
+  requiredWeaponCategory: 
+  requiredLevel:
+    baseValue: 1
+    bonusPerLevel: 0
+  requiredSkillExperience:
+    baseValue: 0
+    bonusPerLevel: 0
+  maxLevel: 1
+  chakraCosts:
+    baseValue: 0
+    bonusPerLevel: 0
+  castTime:
+    baseValue: 1
+    bonusPerLevel: 0
+  cooldown:
+    baseValue: -1
+    bonusPerLevel: 0
+  castRange:
+    baseValue: 0.1
+    bonusPerLevel: 0
+  castSound: {fileID: 0}
+  healsHealth:
+    baseValue: 0
+    bonusPerLevel: 0
+  healsMana:
+    baseValue: 1
+    bonusPerLevel: 0
+  effect: {fileID: 114202398674343234, guid: bc1f26bdfe472a241837c6a541a60dc0, type: 3}
+  canHealSelf: 1
+  canHealOthers: 0

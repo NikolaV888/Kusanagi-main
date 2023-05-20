@@ -1,0 +1,22 @@
+{
+    "name": "Molly",
+    "rootNamespace": "",
+    "references": [
+        "Mirror",
+        "Mirror.Components",
+        "Navigation2D",
+        "SQLite-net",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.TextMeshPro",
+        "DamageNumbersPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

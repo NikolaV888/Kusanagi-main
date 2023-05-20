@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d838807cc31904b34a051741da741326, type: 3}
+  m_Name: Light Fist Start
+  m_EditorClassIdentifier: 
+  followupDefaultAttack: 0
+  toolTip: Default Attack
+  image: {fileID: -34422575, guid: 2dde12fec083a884686af3512754fa52, type: 3}
+  learnDefault: 1
+  showCastBar: 0
+  cancelCastIfTargetDied: 0
+  allowMovement: 1
+  canBeHotbarred: 0
+  increaseAnimationIndex: 1
+  animationCount: 2
+  predecessor: {fileID: 0}
+  predecessorLevel: 1
+  requiredWeaponCategory: 
+  requiredLevel:
+    baseValue: 0
+    bonusPerLevel: 0
+  requiredSkillExperience:
+    baseValue: 0
+    bonusPerLevel: 0
+  maxLevel: 1
+  substitutePoint: {x: 0, y: 0}
+  chakraCosts:
+    baseValue: 0
+    bonusPerLevel: 0
+  flickerPointCosts:
+    baseValue: 0
+    bonusPerLevel: 0
+  castTime:
+    baseValue: 0.15
+    bonusPerLevel: 0
+  selfStunTime:
+    baseValue: 0
+    bonusPerLevel: 0
+  cooldown:
+    baseValue: 0.4
+    bonusPerLevel: 0
+  castRange:
+    baseValue: 3
+    bonusPerLevel: 0
+  followUpSkill: {fileID: 11400000, guid: dfb40f73db899bd49a3132891dab0a21, type: 2}
+  casterVFX: {fileID: 0}
+  targetVFX: {fileID: 641607305738743863, guid: cff867db3dd23c643979e5223646fc5b,
+    type: 3}
+  ignoreCastAnimation: 0
+  castSound: {fileID: 0}
+  castEndSound: {fileID: 0}
+  damage:
+    baseValue: 3
+    bonusPerLevel: 0
+  stunChance:
+    baseValue: 1
+    bonusPerLevel: 0
+  stunTime:
+    baseValue: 0.45
+    bonusPerLevel: 0
+  pushback:
+    baseValue: 1
+    bonusPerLevel: 0
+  pushforward:
+    baseValue: 1
+    bonusPerLevel: 0
+  peircing: 0
+  incrementHitCount: 1
+  requiredHitCount: 1
+  OnHitSound:
+  - {fileID: 8300000, guid: 4b27237d0af708440a3e8429b5f44d50, type: 3}
+  OnMissSound:
+  - {fileID: 8300000, guid: f7bb33cc8a1fda44e9ce994af409b6cc, type: 3}
