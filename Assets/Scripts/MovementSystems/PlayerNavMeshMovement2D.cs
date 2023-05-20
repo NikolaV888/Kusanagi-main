@@ -18,6 +18,8 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
     bool chargingChakra = false;
     bool blocking = false;
 
+    float mouseHoldStartTime;//new for ATTACK
+
     public override void Reset()
     {
         // rubberbanding needs a custom reset, along with the base navmesh reset
@@ -60,7 +62,9 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
 
         //states
         chargingChakra = player.chakra.Percent() <= .99f && Input.GetKey(KeyCode.C) && !UIUtils.AnyInputActive();
-        blocking = Input.GetKey(KeyCode.G);
+        //blocking = Input.GetKey(KeyCode.G);
+        blocking = Input.GetMouseButton(1);//new for right click
+
 
         //states commands
         if (Input.GetKeyDown(KeyCode.LeftShift)) player.ToggleRunning();
@@ -72,27 +76,40 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
         //if (player.IsMovementAllowed() || player.state == "CASTING" || player.state == "STUNNED")
         //  MoveClick();
 
-        if (Input.GetKeyDown(KeyCode.V)) // flicker
+        // Flicker (remains the same)
+        if (Input.GetKeyDown(KeyCode.V))
         {
             Skill skill = player.skills.skills[8];
             bool canCast = player.skills.CastCheckSelf(skill);
             if (canCast) ((PlayerSkills)player.skills).TryUse(8, true, true);
         }
-        else if (Input.GetKey(KeyCode.F) || (Input.GetKey(KeyCode.K) && player.combat.hitCount >= 2)) // heavy attack
+
+        // Heavy and Light attacks based on left mouse click
+        if (Input.GetMouseButtonDown(0)) // Left mouse button pressed
         {
-            Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
-            bool canCastLight = player.skills.CastCheckSelf(lightSkill);
-            Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
-            bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
-            if (canCastLight && canCastHeavy) ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count);
+            mouseHoldStartTime = Time.time;
         }
-        else if (Input.GetKey(KeyCode.Z)) //light attack
+        else if (Input.GetMouseButtonUp(0)) // Left mouse button released
         {
-            Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
-            bool canCastLight = player.skills.CastCheckSelf(lightSkill);
-            Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
-            bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
-            if (canCastLight && canCastHeavy) ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType());
+            float holdDuration = Time.time - mouseHoldStartTime;
+            if (holdDuration >= 0.3f || player.combat.hitCount >= 2) // Heavy attack
+            {
+                Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
+                bool canCastLight = player.skills.CastCheckSelf(lightSkill);
+                Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
+                bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
+                if (canCastLight && canCastHeavy)
+                    ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count);
+            }
+            else // Light attack
+            {
+                Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
+                bool canCastLight = player.skills.CastCheckSelf(lightSkill);
+                Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
+                bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
+                if (canCastLight && canCastHeavy)
+                    ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType());
+            }
         }
 
     }
