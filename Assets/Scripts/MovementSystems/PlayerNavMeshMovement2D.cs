@@ -20,6 +20,8 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
 
     float mouseHoldStartTime;//new for ATTACK
 
+    bool alternateControlScheme = false;
+
     public override void Reset()
     {
         // rubberbanding needs a custom reset, along with the base navmesh reset
@@ -28,23 +30,8 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
         agent.ResetMovement();
     }
 
-    // for 4 years since uMMORPG release we tried to detect warps in
-    // NetworkNavMeshAgent/Rubberbanding. it never worked 100% of the time:
-    // -> checking if dist(pos, lastpos) > speed worked well for far teleports,
-    //    but failed for near teleports with dist < speed meters.
-    // -> checking if speed since last update is > speed is the perfect idea,
-    //    but it turns out that NavMeshAgent sometimes moves faster than
-    //    agent.speed, e.g. when moving up or down a corner/stone. in fact, it
-    //    sometimes moves up to 5x faster than speed, which makes warp detection
-    //    hard.
-    // => the ONLY 100% RELIABLE solution is to have our own Warp function that
-    //    force warps the client over the network.
-    // => this is extremely important for cases where players get warped behind
-    //    a small door or wall. this just has to work.
     public override void Warp(Vector2 destination)
     {
-        // rubberbanding needs to know about warp. this is the only 100%
-        // reliable way to detect it.
         if (isServer)
             rubberbanding.RpcWarp(destination);
         agent.Warp(destination);
@@ -52,31 +39,30 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
 
     void Update()
     {
-        // only for local player
         if (!isLocalPlayer || UIUtils.AnyInputActive()) return;
 
-        // wasd movement allowed?
+        if (Input.GetKeyDown(KeyCode.Semicolon))
+            alternateControlScheme = !alternateControlScheme;
+
         if (player.IsMovementAllowed())
             MoveWASD();
         else LookWASD();
 
-        //states
         chargingChakra = player.chakra.Percent() <= .99f && Input.GetKey(KeyCode.C) && !UIUtils.AnyInputActive();
-        //blocking = Input.GetKey(KeyCode.G);
-        blocking = Input.GetMouseButton(1);//new for right click
 
+        if (alternateControlScheme)
+        {
+            blocking = Input.GetMouseButton(1);
+        }
+        else
+        {
+            blocking = Input.GetKey(KeyCode.G);
+        }
 
-        //states commands
         if (Input.GetKeyDown(KeyCode.LeftShift)) player.ToggleRunning();
         if (player.blocking != blocking) player.SetBlocking(blocking);
         if (player.chargingChakra != chargingChakra) player.SetChargingChakra(chargingChakra);
 
-        // click movement allowed?
-        // (we allowed it in CASTING/STUNNED too by setting nextDestination
-        //if (player.IsMovementAllowed() || player.state == "CASTING" || player.state == "STUNNED")
-        //  MoveClick();
-
-        // Flicker (remains the same)
         if (Input.GetKeyDown(KeyCode.V))
         {
             Skill skill = player.skills.skills[8];
@@ -84,34 +70,58 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
             if (canCast) ((PlayerSkills)player.skills).TryUse(8, true, true);
         }
 
-        // Heavy and Light attacks based on left mouse click
-        if (Input.GetMouseButtonDown(0)) // Left mouse button pressed
+        if (alternateControlScheme)
         {
-            mouseHoldStartTime = Time.time;
-        }
-        else if (Input.GetMouseButtonUp(0)) // Left mouse button released
-        {
-            float holdDuration = Time.time - mouseHoldStartTime;
-            if (holdDuration >= 0.3f || player.combat.hitCount >= 2) // Heavy attack
+            if (Input.GetMouseButtonDown(0)) // Left mouse button pressed
             {
-                Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
-                bool canCastLight = player.skills.CastCheckSelf(lightSkill);
-                Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
-                bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
-                if (canCastLight && canCastHeavy)
-                    ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count);
+                mouseHoldStartTime = Time.time;
             }
-            else // Light attack
+            else if (Input.GetMouseButtonUp(0)) // Left mouse button released
+            {
+                float holdDuration = Time.time - mouseHoldStartTime;
+                if (holdDuration >= 0.3f || player.combat.hitCount >= 2) // Heavy attack
+                {
+                    Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
+                    bool canCastLight = player.skills.CastCheckSelf(lightSkill);
+                    Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
+                    bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
+                    if (canCastLight && canCastHeavy)
+                        ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count);
+                }
+                else // Light attack
+                {
+                    Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
+                    bool canCastLight = player.skills.CastCheckSelf(lightSkill);
+                    Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
+                    bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
+                    if (canCastLight && canCastHeavy)
+                        ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType());
+                }
+            }
+        }
+        else
+        {
+            // Z for light attack
+            if (Input.GetKeyDown(KeyCode.Z))
             {
                 Skill lightSkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType()];
                 bool canCastLight = player.skills.CastCheckSelf(lightSkill);
-                Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
-                bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
-                if (canCastLight && canCastHeavy)
+                if (canCastLight)
                     ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType());
             }
-        }
 
+            // F for heavy attack
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                Skill heavySkill = player.skills.skills[(int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count];
+                bool canCastHeavy = player.skills.CastCheckSelf(heavySkill);
+                if (canCastHeavy)
+                    ((PlayerSkills)player.skills).TryUse((int)player.equipment.GetEquippedWeaponType() + (int)WeaponItem.weaponType.Count);
+            }
+
+            // G for block
+            blocking = Input.GetKey(KeyCode.G);
+        }
     }
 
     [Client]
@@ -148,7 +158,7 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
                 // note: SetSpeed() already sets agent.speed to player.speed
                 //Collider2D hit = Physics2D.OverlapCircle((Vector2)transform.position + (direction / 3f), .05f, blockableObjects);
                 //if (!hit) 
-                    agent.velocity = direction * agent.speed; //this is a bad idea but obstacle navigation has issues with warping
+                agent.velocity = direction * agent.speed; //this is a bad idea but obstacle navigation has issues with warping
                 //Navigate(((Vector2Int)Vector3Int.RoundToInt(transform.position)) + ((Vector2Int)Vector3Int.RoundToInt(direction)), 0);
 
                 // clear requested skill in any case because if we clicked
@@ -182,7 +192,7 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
         }
 
     }
-
+/*
     [Client]
     void MoveClick()
     {
@@ -223,7 +233,7 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
                 else Navigate(bestDestination, 0);
             }
         }
-    }
+    }*/
 
     // validation //////////////////////////////////////////////////////////////
     void OnValidate()

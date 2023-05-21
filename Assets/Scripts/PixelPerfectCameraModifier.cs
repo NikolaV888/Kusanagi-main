@@ -7,11 +7,15 @@ public class PixelPerfectCameraModifier : MonoBehaviour
 {
     PixelPerfectCamera pixelPerfectCamera;
     float referenceResolution;
+    float originalResolution;
+    bool isZoomedOut = false;
+
     // Start is called before the first frame update
     void Start()
     {
         pixelPerfectCamera = GetComponent<PixelPerfectCamera>();
-        referenceResolution = pixelPerfectCamera.refResolutionX;
+        originalResolution = pixelPerfectCamera.refResolutionX;
+        referenceResolution = originalResolution;
     }
 
     // Update is called once per frame
@@ -19,17 +23,19 @@ public class PixelPerfectCameraModifier : MonoBehaviour
     {
         if (UIUtils.AnyInputActive()) return;
 
-        if (Input.GetKey(KeyCode.Equals) && referenceResolution < 420) // Equals key corresponds to "+/=" on the keyboard
+        if (Input.GetKey(KeyCode.Equals) && referenceResolution < 420)
         {
-            referenceResolution += Time.deltaTime * (referenceResolution) * 1.2f; // Increased zoom-out factor to 1.2 for more zoom out
+            isZoomedOut = true;
+            referenceResolution += Time.deltaTime * (referenceResolution) * 1.2f;
             pixelPerfectCamera.refResolutionX = (int)referenceResolution;
             pixelPerfectCamera.refResolutionY = (int)referenceResolution;
         }
-        else if (Input.GetKey(KeyCode.Minus) && pixelPerfectCamera.refResolutionX > 64) // Minus key corresponds to "_/-" on the keyboard
+        else if (Input.GetKey(KeyCode.Minus) && isZoomedOut)
         {
-            referenceResolution -= Time.deltaTime * (referenceResolution) * 1.1f;
+            referenceResolution = originalResolution;
             pixelPerfectCamera.refResolutionX = (int)referenceResolution;
             pixelPerfectCamera.refResolutionY = (int)referenceResolution;
+            isZoomedOut = false;
         }
     }
 }
