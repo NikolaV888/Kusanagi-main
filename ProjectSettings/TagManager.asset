@@ -63,6 +63,9 @@ TagManager:
   - name: Terrain
     uniqueID: 1088210625
     locked: 0
+  - name: Terrain 2
+    uniqueID: 3175559331
+    locked: 0
   - name: Obstacles
     uniqueID: 2470428127
     locked: 0

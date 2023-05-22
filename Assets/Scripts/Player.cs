@@ -107,7 +107,7 @@ public partial class Player : Entity
             if (mountControl.activeMount != null && mountControl.activeMount.health.current > 0) return mountControl.activeMount.speed;
 
             // mount speed if mounted, regular speed otherwise
-            return running ? base.speed * 3f
+            return running ? base.speed * 4f
                    : base.speed;
         }
     }
