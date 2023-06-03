@@ -23,18 +23,24 @@ public class PlayerSkillbar : NetworkBehaviour
 
     [Header("Skillbar")]
     public SkillbarEntry[] slots =
-    {
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha1},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha2},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha3},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha4},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha5},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha6},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha7},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha8},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha9},
-        new SkillbarEntry{reference="", hotKey=KeyCode.Alpha0},
-    };
+{
+    new SkillbarEntry{reference="", hotKey=KeyCode.F1},
+    new SkillbarEntry{reference="", hotKey=KeyCode.F2},
+    new SkillbarEntry{reference="", hotKey=KeyCode.F3},
+    new SkillbarEntry{reference="", hotKey=KeyCode.F4},
+    new SkillbarEntry{reference="", hotKey=KeyCode.F5},
+    new SkillbarEntry{reference="", hotKey=KeyCode.F6},
+    new SkillbarEntry{reference="", hotKey=KeyCode.F7},
+    new SkillbarEntry{reference="", hotKey=KeyCode.F8},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha1},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha2},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha3},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha4},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha5},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha6},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha7},
+    new SkillbarEntry{reference="", hotKey=KeyCode.Alpha8},
+};
 
     public override void OnStartLocalPlayer()
     {
