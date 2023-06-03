@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: af86d842abc7446c18d981aa29af8f08
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buildings 2_0
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 481
+        width: 285
+        height: 376
+      alignment: 9
+      pivot: {x: 0.49479768, y: 0.36593238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 34.5, y: -11}
+        - {x: 4.5, y: -9}
+        - {x: -76.5, y: -15}
+        - {x: -117.5, y: -27}
+        - {x: -142.5, y: -21}
+        - {x: -142.5, y: -188}
+        - {x: 139.5, y: -188}
+        - {x: 142.5, y: -187}
+        - {x: 142.5, y: -13}
+        - {x: 67.5, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bfdef0bdf9d4e57bc7dd9c53827780
+      internalID: -995748583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings 2_1
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 403
+        width: 394
+        height: 459
+      alignment: 9
+      pivot: {x: 0.4962369, y: 0.36756474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 186, y: -39.5}
+        - {x: 175, y: -1.5}
+        - {x: 51, y: -13.5}
+        - {x: -50, y: -15.5}
+        - {x: -190, y: -51.5}
+        - {x: -197, y: -91.5}
+        - {x: -170, y: -104.5}
+        - {x: -166, y: -153.5}
+        - {x: -144, y: -168.5}
+        - {x: 158, y: -179.5}
+        - {x: 176, y: -117.5}
+        - {x: 197, y: -87.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7697874a46b52467a8a3a3217c85fbed
+      internalID: -1194741566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings 2_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 110
+        width: 319
+        height: 371
+      alignment: 9
+      pivot: {x: 0.4999997, y: 0.4200739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 130.5, y: 37.5}
+        - {x: -24.5, y: 49.5}
+        - {x: -124.5, y: 39.5}
+        - {x: -158.5, y: 34.5}
+        - {x: -159.5, y: -185.5}
+        - {x: 81.5, y: -185.5}
+        - {x: 92.5, y: -164.5}
+        - {x: 155.5, y: -174.5}
+        - {x: 159.5, y: -144.5}
+        - {x: 158.5, y: 37.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed8c65ff0f0d4caaa63a743e2fa6c50
+      internalID: -1161746477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings 2_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 94
+        width: 353
+        height: 372
+      alignment: 9
+      pivot: {x: 0.51680005, y: 0.42028874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -127.5, y: 63}
+        - {x: -133.5, y: 101}
+        - {x: -126.5, y: 96}
+        - {x: -149.5, y: 38}
+        - {x: -158.5, y: 23}
+        - {x: -161.5, y: -42}
+        - {x: -170.5, y: -88}
+        - {x: -137.5, y: -85}
+        - {x: -135.5, y: -141}
+        - {x: -27.5, y: -141}
+        - {x: 38.5, y: -142}
+        - {x: 153.5, y: -144}
+        - {x: 157.5, y: -83}
+        - {x: 176.5, y: -80}
+        - {x: 172.5, y: 33}
+        - {x: 131.5, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6785953cb174c68a6c7fd33436aeba
+      internalID: -541813248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildings 2_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 62
+        width: 236
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b430f3f8c3ef84ab4a59f09e68fec520
+      internalID: 1577511249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aad52fcd828c8407692e3056e4450136
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      buildings 2_0: -995748583
+      buildings 2_1: -1194741566
+      buildings 2_2: -1161746477
+      buildings 2_3: -541813248
+      buildings 2_4: 1577511249
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

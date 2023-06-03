@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 2372e3a2ae1ae4819903e5a307dd0ad2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SakuraTreesV2_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 264
+        width: 198
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0.24182607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dc04775ee774ae59b11982c1d7443a
+      internalID: -165376038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 272
+        width: 118
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48327455, y: 0.23349221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 26.28421, y: -35.972717}
+        - {x: 22.35794, y: -29.452728}
+        - {x: 15.893158, y: -28.269714}
+        - {x: 11.399384, y: -30.05835}
+        - {x: 6.6291504, y: -26.852295}
+        - {x: -14.246399, y: -26.539642}
+        - {x: -17.906586, y: -27.865662}
+        - {x: -29.058746, y: -28.029877}
+        - {x: -34.770966, y: -33.10797}
+        - {x: -39.043457, y: -38.04309}
+        - {x: -35.772675, y: -40.015533}
+        - {x: -27.947876, y: -37.039062}
+        - {x: -23.430664, y: -40.38211}
+        - {x: -40.834534, y: -54.932953}
+        - {x: -37.17575, y: -60.256958}
+        - {x: -16.419159, y: -50.66269}
+        - {x: -8.04538, y: -54.82892}
+        - {x: -3.8563538, y: -63.95285}
+        - {x: 0.6383972, y: -63.594727}
+        - {x: 5.2466125, y: -68.5}
+        - {x: 15.494293, y: -68.5}
+        - {x: 9.850952, y: -59.00064}
+        - {x: 11.132965, y: -49.408203}
+        - {x: 24.75473, y: -50.271088}
+        - {x: 32.238037, y: -45.166107}
+        - {x: 19.666107, y: -36.547913}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6e4cd3f82a441aafea7c8973d56ae
+      internalID: -1352517955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 262
+        width: 229
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5732558, y: 0.2557429}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17.673279, y: -46.601532}
+        - {x: -11.849121, y: -53.736237}
+        - {x: -32.739075, y: -71.15115}
+        - {x: -29.926575, y: -82.34622}
+        - {x: -13.596313, y: -73.910095}
+        - {x: 3.6949463, y: -73.590576}
+        - {x: 19.666565, y: -83.321014}
+        - {x: 34.02368, y: -85.91504}
+        - {x: 46.229248, y: -101}
+        - {x: 65.5, y: -101}
+        - {x: 54.757996, y: -90.9852}
+        - {x: 51.647766, y: -77.86441}
+        - {x: 40.94171, y: -69.77695}
+        - {x: 61.02704, y: -64.660034}
+        - {x: 61.5, y: -59}
+        - {x: 47.5, y: -45}
+        - {x: 35.5, y: -41}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e8a97cb26c4c3e9f5c5e4cd356441
+      internalID: 1639658558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_3
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 267
+        width: 224
+        height: 165
+      alignment: 9
+      pivot: {x: 0.27532715, y: 0.1650866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19.038818, y: -63.96866}
+        - {x: -29.586914, y: -55.051636}
+        - {x: -36.299194, y: -42.5}
+        - {x: -47.6037, y: -44.02954}
+        - {x: -66.65491, y: -50.804504}
+        - {x: -68, y: -82.5}
+        - {x: -24.304504, y: -80.479706}
+        - {x: 7, y: -75.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3885281226b44af9fbb7139fe58f9b
+      internalID: 1386831845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 198
+        height: 210
+      alignment: 9
+      pivot: {x: 0.49003235, y: 0.2744461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab43bb049e783450ba77ff79dbdff384
+      internalID: -39426087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 155
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: 0.50000095, y: 0.24087143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc8ec34bc9534f73900330da463f4fb
+      internalID: -1420814506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 155
+        width: 32
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49280262, y: 0.20248222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5607777e33472438ba8537ee0a811415
+      internalID: -1555972627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 168
+        width: 50
+        height: 38
+      alignment: 9
+      pivot: {x: 0.484834, y: 0.29048276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13.874329, y: 0.8802948}
+        - {x: -23.934143, y: 0.27850342}
+        - {x: -24.467102, y: -8.006012}
+        - {x: -18.068848, y: -12.937149}
+        - {x: -11.265625, y: -15.947647}
+        - {x: 2.2544556, y: -18.200607}
+        - {x: 11.690918, y: -19}
+        - {x: 23.200623, y: -16.868256}
+        - {x: 25, y: -6.3413544}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e369e927b3f6d4720bd8f87ef51a37aa
+      internalID: -851737494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 168
+        width: 46
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4917576, y: 0.3209682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20.49237, y: -1.9668427}
+        - {x: -23, y: -11}
+        - {x: -14, y: -18}
+        - {x: 13, y: -18}
+        - {x: 23, y: -13}
+        - {x: 21.934143, y: 0.6048126}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ad7087ecb054beead31295f57d5b0b
+      internalID: 978567278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_9
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 170
+        width: 41
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5092461, y: 0.20069002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -19.880127, y: -4.7154846}
+        - {x: -20.5, y: -19}
+        - {x: 17.5, y: -19}
+        - {x: 20.5, y: -17}
+        - {x: 18.368286, y: -0.4580536}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae6941da7ab54ceeacd53a7a70a0c80
+      internalID: -926758701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 30
+        width: 159
+        height: 207
+      alignment: 9
+      pivot: {x: 0.52037156, y: 0.14010808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19.775574, y: -54.21882}
+        - {x: -3.4180298, y: -56.682503}
+        - {x: -6.060486, y: -66.967415}
+        - {x: -19.256287, y: -94.05681}
+        - {x: -11.244934, y: -95.641525}
+        - {x: -11.995178, y: -103.5}
+        - {x: 21.533508, y: -102.32123}
+        - {x: 27.363892, y: -94.09835}
+        - {x: 20.168518, y: -80.00093}
+        - {x: 19.775574, y: -69.6825}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fdd1bce1de34f72800419c65556767
+      internalID: -1676701065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 140
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0.51805186, y: 0.2630453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66be4b9770c846a48da09e6ed4699d6
+      internalID: -1640983342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SakuraTreesV2_12
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 136
+        width: 41
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49075243, y: 0.26304564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a452e56013734f11ad5dc97a55f6a56
+      internalID: 1328021117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b8d7abe20db3b4f3ab23a33dbf771db2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SakuraTreesV2_0: -165376038
+      SakuraTreesV2_1: -1352517955
+      SakuraTreesV2_10: -1676701065
+      SakuraTreesV2_11: -1640983342
+      SakuraTreesV2_12: 1328021117
+      SakuraTreesV2_2: 1639658558
+      SakuraTreesV2_3: 1386831845
+      SakuraTreesV2_4: -39426087
+      SakuraTreesV2_5: -1420814506
+      SakuraTreesV2_6: -1555972627
+      SakuraTreesV2_7: -851737494
+      SakuraTreesV2_8: 978567278
+      SakuraTreesV2_9: -926758701
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

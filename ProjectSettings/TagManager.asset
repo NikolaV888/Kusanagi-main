@@ -66,14 +66,29 @@ TagManager:
   - name: Terrain 2
     uniqueID: 3175559331
     locked: 0
+  - name: Terrain 3
+    uniqueID: 3003718581
+    locked: 0
+  - name: BlossomRegion
+    uniqueID: 2417085079
+    locked: 0
+  - name: BlossomSideWalk
+    uniqueID: 2266596561
+    locked: 0
+  - name: BlossomTrees
+    uniqueID: 339655019
+    locked: 0
+  - name: BlossomBuildings
+    uniqueID: 2634855411
+    locked: 0
   - name: Obstacles
     uniqueID: 2470428127
     locked: 0
-  - name: Buildings
-    uniqueID: 3099144059
-    locked: 0
   - name: BehindEntities
     uniqueID: 3850324229
+    locked: 0
+  - name: Buildings
+    uniqueID: 3099144059
     locked: 0
   - name: Entities
     uniqueID: 850132101
@@ -87,9 +102,9 @@ TagManager:
   - name: Buffs
     uniqueID: 1136474945
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Foreground
     uniqueID: 1591611385
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

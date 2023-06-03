@@ -37,5 +37,12 @@ public class PixelPerfectCameraModifier : MonoBehaviour
             pixelPerfectCamera.refResolutionY = (int)referenceResolution;
             isZoomedOut = false;
         }
+        else if (Input.GetKey(KeyCode.Equals) && isZoomedOut)
+        {
+            isZoomedOut = true;
+            referenceResolution += Time.deltaTime * (referenceResolution) * 1.3f;
+            pixelPerfectCamera.refResolutionX = (int)referenceResolution;
+            pixelPerfectCamera.refResolutionY = (int)referenceResolution;
+        }
     }
 }

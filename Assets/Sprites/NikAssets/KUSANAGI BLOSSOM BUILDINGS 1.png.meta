@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: fccfc5338f45c43009c690ac302cfcd4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KUSANAGI BLOSSOM BUILDINGS 1_0
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 831
+        width: 531
+        height: 469
+      alignment: 9
+      pivot: {x: 0.4955266, y: 0.65700275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 265.5, y: -88.89429}
+        - {x: 255.9989, y: 115.00659}
+        - {x: 82.80713, y: 75.35486}
+        - {x: -115.8739, y: 65.853516}
+        - {x: -243.92401, y: 121.02698}
+        - {x: -265.5, y: 66.88745}
+        - {x: -265.5, y: -82.04376}
+        - {x: -185.20905, y: -177.49274}
+        - {x: -75.475586, y: -222.26813}
+        - {x: -28.206299, y: -234.5}
+        - {x: 65.82654, y: -227.37408}
+        - {x: 159.46423, y: -185.98035}
+        - {x: 222.30176, y: -137.55368}
+        - {x: 237.3584, y: -115.5411}
+        - {x: 245.46582, y: -101.63842}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d314a7289584b91a0fcd4ae70b2051
+      internalID: 1990525807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KUSANAGI BLOSSOM BUILDINGS 1_1
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 870
+        width: 424
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 212, y: 23.25647}
+        - {x: 167.60156, y: 20.104248}
+        - {x: -148.41113, y: 10.603027}
+        - {x: -212, y: 8.07373}
+        - {x: -212, y: -182.54903}
+        - {x: -198.21391, y: -183.70758}
+        - {x: 200.20796, y: -183.70758}
+        - {x: 212, y: -169.8049}
+        - {x: 212, y: -12.367798}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fab275e404848a09fb2522b4b166da
+      internalID: -1258795679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KUSANAGI BLOSSOM BUILDINGS 1_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 388
+        width: 342
+        height: 411
+      alignment: 9
+      pivot: {x: 0.5069453, y: 0.34973752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 161.07526, y: 29.889526}
+        - {x: 137.5578, y: -1.460083}
+        - {x: 103.204346, y: -9.860962}
+        - {x: 67.77118, y: -15.251587}
+        - {x: -3.8804321, y: -13.027649}
+        - {x: -104.62439, y: -15.403015}
+        - {x: -160.49295, y: 42.051758}
+        - {x: -169.99413, y: -190.11995}
+        - {x: -149.14647, y: -205.1812}
+        - {x: 148.51173, y: -205.1812}
+        - {x: 165.88478, y: -148.41191}
+        - {x: 171, y: -110.17952}
+        - {x: 168.6247, y: -27.05951}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35653acf2b7a14f9eaef28e04aa32070
+      internalID: -307237753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KUSANAGI BLOSSOM BUILDINGS 1_3
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 260
+        width: 284
+        height: 459
+      alignment: 9
+      pivot: {x: 0.4832725, y: 0.39650106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -142, y: 7.2366943}
+        - {x: -142, y: -76.93579}
+        - {x: -141.80269, y: -229.49034}
+        - {x: 142, y: -229.49034}
+        - {x: 137.24939, y: -57.346405}
+        - {x: 135.06677, y: 16.737915}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ad8e18215d5479e8947aafb093eadf
+      internalID: -1375286740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KUSANAGI BLOSSOM BUILDINGS 1_4
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 164
+        width: 391
+        height: 360
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4010291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -175.62207, y: -17.149933}
+        - {x: -195.48816, y: -22.082855}
+        - {x: -195.4882, y: -178.93288}
+        - {x: -151.47649, y: -180}
+        - {x: 195.5, y: -180}
+        - {x: 195.5, y: -19.072723}
+        - {x: 146.06396, y: -17.149994}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7af8abb6a8384270abab1b3e60b18b2
+      internalID: -1347121713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ec887e0b06c6f4b689215e280bcffe4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KUSANAGI BLOSSOM BUILDINGS 1_0: 1990525807
+      KUSANAGI BLOSSOM BUILDINGS 1_1: -1258795679
+      KUSANAGI BLOSSOM BUILDINGS 1_2: -307237753
+      KUSANAGI BLOSSOM BUILDINGS 1_3: -1375286740
+      KUSANAGI BLOSSOM BUILDINGS 1_4: -1347121713
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
