@@ -2,9 +2,11 @@
 
 public partial class UISkillbar : MonoBehaviour
 {
-    public GameObject panel;
+    public GameObject panel1;
+    public GameObject panel2;
     public UISkillbarSlot slotPrefab;
-    public Transform content;
+    public Transform content1;
+    public Transform content2;
 
     /*
     [Header("Durability Colors")]
@@ -18,17 +20,22 @@ public partial class UISkillbar : MonoBehaviour
         Player player = Player.localPlayer;
         if (player != null)
         {
-            panel.SetActive(true);
+            panel1.SetActive(true);
+            panel2.SetActive(true);
 
             // instantiate/destroy enough slots
-            UIUtils.BalancePrefabs(slotPrefab.gameObject, player.skillbar.slots.Length, content);
-                        
+            UIUtils.BalancePrefabs(slotPrefab.gameObject, player.skillbar.slots.Length / 2, content1);
+            UIUtils.BalancePrefabs(slotPrefab.gameObject, player.skillbar.slots.Length / 2, content2);
+
             // refresh all
             for (int i = 0; i < player.skillbar.slots.Length; ++i)
             {
                 SkillbarEntry entry = player.skillbar.slots[i];
 
-                UISkillbarSlot slot = content.GetChild(i).GetComponent<UISkillbarSlot>();
+                Transform parentContent = i < player.skillbar.slots.Length / 2 ? content1 : content2;
+                int localIndex = i < player.skillbar.slots.Length / 2 ? i : i - player.skillbar.slots.Length / 2;
+
+                UISkillbarSlot slot = parentContent.GetChild(localIndex).GetComponent<UISkillbarSlot>();
                 slot.dragAndDropable.name = i.ToString(); // drag and drop index
 
                 // hotkey overlay (without 'Alpha' etc.)
@@ -62,7 +69,8 @@ public partial class UISkillbar : MonoBehaviour
 
                     // refresh skill slot
                     slot.button.interactable = canCast; // check mana, cooldowns, etc.
-                    slot.button.onClick.SetListener(() => {
+                    slot.button.onClick.SetListener(() =>
+                    {
                         // try use the skill or walk closer if needed
                         //((PlayerSkills)player.skills).TryUse(skillIndex);
                         ((PlayerSkills)player.skills).TryUse(skillIndex);
@@ -92,7 +100,8 @@ public partial class UISkillbar : MonoBehaviour
                         player.inventory.CmdUseItem(inventoryIndex);
 
                     // refresh inventory slot
-                    slot.button.onClick.SetListener(() => {
+                    slot.button.onClick.SetListener(() =>
+                    {
                         //player.inventory.CmdUseItem(inventoryIndex);
                         player.inventory.CmdUseItem(inventoryIndex);
                     });
@@ -114,7 +123,8 @@ public partial class UISkillbar : MonoBehaviour
                         else
                             slot.image.color = Color.white;
                     }
-                    else*/ slot.image.color = Color.white; // reset for no-durability items
+                    else*/
+                    slot.image.color = Color.white; // reset for no-durability items
                     slot.image.sprite = itemSlot.item.image;
 
                     slot.cooldownOverlay.SetActive(false);
@@ -151,7 +161,8 @@ public partial class UISkillbar : MonoBehaviour
                         else
                             slot.image.color = Color.white;
                     }
-                    else*/ slot.image.color = Color.white; // reset for no-durability items
+                    else*/
+                    slot.image.color = Color.white; // reset for no-durability items
                     slot.image.sprite = itemSlot.item.image;
 
                     slot.cooldownOverlay.SetActive(false);
@@ -183,6 +194,10 @@ public partial class UISkillbar : MonoBehaviour
                 }
             }
         }
-        else panel.SetActive(false);
+        else
+        {
+            panel1.SetActive(false);
+            panel2.SetActive(false);
+        }
     }
 }

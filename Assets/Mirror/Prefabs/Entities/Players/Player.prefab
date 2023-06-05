@@ -1032,6 +1032,14 @@ MonoBehaviour:
   skills: {fileID: 3784020243539760538}
   slots:
   - reference: 
+    hotKey: 282
+  - reference: 
+    hotKey: 283
+  - reference: 
+    hotKey: 284
+  - reference: 
+    hotKey: 285
+  - reference: 
     hotKey: 49
   - reference: 
     hotKey: 50
@@ -1040,6 +1048,14 @@ MonoBehaviour:
   - reference: 
     hotKey: 52
   - reference: 
+    hotKey: 286
+  - reference: 
+    hotKey: 287
+  - reference: 
+    hotKey: 288
+  - reference: 
+    hotKey: 289
+  - reference: 
     hotKey: 53
   - reference: 
     hotKey: 54
@@ -1047,10 +1063,6 @@ MonoBehaviour:
     hotKey: 55
   - reference: 
     hotKey: 56
-  - reference: 
-    hotKey: 57
-  - reference: 
-    hotKey: 48
 --- !u!114 &3784020243539760538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2465,7 +2477,7 @@ MonoBehaviour:
   - {x: 0.075, y: 0, z: 0}
   m_ShapePathHash: 786107517
   m_Mesh: {fileID: 0}
-  m_InstanceId: 118362
+  m_InstanceId: 163976
 --- !u!1 &4072845597458147861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,7 +2583,7 @@ MonoBehaviour:
   - {x: 0.075, y: 0, z: 0}
   m_ShapePathHash: 786107517
   m_Mesh: {fileID: 0}
-  m_InstanceId: 118314
+  m_InstanceId: 163928
 --- !u!1 &6260231143127769411
 GameObject:
   m_ObjectHideFlags: 0
