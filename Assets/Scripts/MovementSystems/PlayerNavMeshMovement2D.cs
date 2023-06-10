@@ -24,17 +24,25 @@ public class PlayerNavMeshMovement2D : NavMeshMovement2D
 
     public override void Reset()
     {
+        Debug.Log("Before reset: " + player.transform.position);
+
         // rubberbanding needs a custom reset, along with the base navmesh reset
         if (isServer)
             rubberbanding.ResetMovement();
         agent.ResetMovement();
+
+        Debug.Log("After reset: " + player.transform.position);
     }
 
     public override void Warp(Vector2 destination)
+
     {
+        Debug.Log("Before warp: " + player.transform.position);
         if (isServer)
             rubberbanding.RpcWarp(destination);
         agent.Warp(destination);
+
+        Debug.Log("After warp: " + player.transform.position);
     }
 
     void Update()

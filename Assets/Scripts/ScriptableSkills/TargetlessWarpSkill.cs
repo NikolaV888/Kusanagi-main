@@ -31,13 +31,36 @@ public class TargetlessWarpSkill : ScriptableSkill
 
     public override void Apply(Entity caster, int skillLevel, Vector2 direction)
     {
-        RaycastHit2D raycast = Physics2D.Linecast(caster.transform.position, (Vector2)caster.transform.position + (caster.lookDirection * warpDistance), warpBlockingLayers);
+        // log the look direction and warp distance
+        Debug.Log("Look direction: " + caster.lookDirection);
+        Debug.Log("Warp distance: " + warpDistance);
+
+        Vector2 raycastEnd = (Vector2)caster.transform.position + (caster.lookDirection * warpDistance);
+
+        // print the start and end points of the raycast
+        Debug.Log("Raycast start: " + caster.transform.position);
+        Debug.Log("Raycast end: " + raycastEnd);
+
+        RaycastHit2D raycast = Physics2D.Linecast(caster.transform.position, raycastEnd, warpBlockingLayers);
 
         if (raycast.collider)
         {
-            caster.movement.Warp(raycast.point);
+            // print the point and the name of the collider that the raycast hits
+            Debug.Log("Raycast hit: " + raycast.point);
             Debug.Log("Warp Blocked By " + raycast.collider.name);
+
+            Debug.Log("Attempting to warp to: " + raycast.point);
+            caster.movement.Warp(raycast.point);
+            Debug.Log("Warp command completed");
         }
-        else caster.movement.Warp((Vector2)caster.transform.position + (caster.lookDirection * warpDistance));
+        else
+        {
+            // print the point where the raycast ends
+            Debug.Log("Raycast end: " + raycastEnd);
+
+            Debug.Log("Attempting to warp to: " + raycastEnd);
+            caster.movement.Warp(raycastEnd);
+            Debug.Log("Warp command completed");
+        }
     }
 }

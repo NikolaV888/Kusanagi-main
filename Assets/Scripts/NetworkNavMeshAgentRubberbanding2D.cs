@@ -109,9 +109,9 @@ public class NetworkNavMeshAgentRubberbanding2D : NetworkBehaviour
         // - we aren't in the instance, so we never loaded the NavMesh
         // - we can't move the other player there, and we don't have to either.
         // => best to simply do nothing and wait for AoI to remove other player!
-        if (NavMesh2D.SamplePosition(position, out NavMeshHit2D _, 0.1f, NavMesh2D.AllAreas))
+        if (NavMesh2D.SamplePosition(position, out NavMeshHit2D hit, 0.1f, NavMesh2D.AllAreas))
         {
-            agent.Warp(position);
+            agent.Warp(hit.position);
         }
         else Debug.Log($"RpcWarp for {name} ignored because destination is not on NavMesh: {position}. This can happen if a NavMesh player next to us walked into an instance.");
     }
