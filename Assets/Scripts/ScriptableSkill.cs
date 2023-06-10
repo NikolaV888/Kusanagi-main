@@ -144,7 +144,7 @@ public abstract partial class ScriptableSkill : ScriptableObject
         if (casterVFX)
         {
             GameObject go = Instantiate(casterVFX.gameObject, caster.skills.effectMount);
-            caster.transform.localPosition = Vector3.zero;
+            go.transform.localPosition = Vector3.zero;
             //NetworkServer.Spawn(go);
         }
     }
