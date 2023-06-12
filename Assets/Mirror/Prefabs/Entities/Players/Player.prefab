@@ -1823,7 +1823,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 850132101
-  m_SortingLayer: -5
+  m_SortingLayer: -6
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1937,7 +1937,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1088210625
-  m_SortingLayer: -15
+  m_SortingLayer: -17
   m_SortingOrder: 1
   m_Sprite: {fileID: -1489786620, guid: 0b1bb4428dbd1ad48963f0cbbbccc60f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2377,7 +2377,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 850132101
-  m_SortingLayer: -5
+  m_SortingLayer: -6
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: cf7487dc3a3a0604988d0d83fae2278c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
@@ -2477,7 +2477,7 @@ MonoBehaviour:
   - {x: 0.075, y: 0, z: 0}
   m_ShapePathHash: 786107517
   m_Mesh: {fileID: 0}
-  m_InstanceId: 186330
+  m_InstanceId: 88834
 --- !u!1 &4072845597458147861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2583,7 +2583,7 @@ MonoBehaviour:
   - {x: 0.075, y: 0, z: 0}
   m_ShapePathHash: 786107517
   m_Mesh: {fileID: 0}
-  m_InstanceId: 186282
+  m_InstanceId: 88786
 --- !u!1 &6260231143127769411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2596,6 +2596,7 @@ GameObject:
   - component: {fileID: 8541952566170594595}
   - component: {fileID: 412348859377931873}
   - component: {fileID: 4634106094002238912}
+  - component: {fileID: 6637032568323222059}
   m_Layer: 8
   m_Name: SpriteRenderer
   m_TagString: Untagged
@@ -2680,7 +2681,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 850132101
-  m_SortingLayer: -5
+  m_SortingLayer: -6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1489786620, guid: 0b1bb4428dbd1ad48963f0cbbbccc60f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2706,6 +2707,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ownMaterialInstance: 1
+--- !u!114 &6637032568323222059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6260231143127769411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee158225ee1e59f4791627785501d950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shaderTypes: 1
+  normalStrength: 5
+  normalSmoothing: 1
+  computingNormal: 0
 --- !u!1 &6921210422636209427
 GameObject:
   m_ObjectHideFlags: 0
