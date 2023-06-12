@@ -75,6 +75,9 @@ TagManager:
   - name: BlossomSideWalk
     uniqueID: 2266596561
     locked: 0
+  - name: BlossomTopSidewalk
+    uniqueID: 2947162781
+    locked: 0
   - name: BlossomTrees
     uniqueID: 339655019
     locked: 0
@@ -92,6 +95,9 @@ TagManager:
     locked: 0
   - name: Entities
     uniqueID: 850132101
+    locked: 0
+  - name: OverPlayer
+    uniqueID: 3058520803
     locked: 0
   - name: Equipment
     uniqueID: 2767956671
