@@ -26,7 +26,7 @@ using UnityEngine.Events;
 using Mirror;
 using TMPro;
 
-[Serializable] public class UnityEventPlayer : UnityEvent<Player> {}
+[Serializable] public class UnityEventPlayer : UnityEvent<Player> { }
 
 //[RequireComponent(typeof(Animator))] <- on ChildRoot/Sprite now
 [RequireComponent(typeof(Experience))]
@@ -75,7 +75,7 @@ public partial class Player : Entity
     public PlayerSkillbar skillbar;
     public PlayerTrading trading;
     public NetworkNavMeshAgentRubberbanding2D rubberbanding;
-    
+
     [Header("Text Meshes")]
     public TextMeshPro nameOverlay;
     public Color nameOverlayDefaultColor = Color.white;
@@ -84,7 +84,7 @@ public partial class Player : Entity
     public Color nameOverlayPartyColor = new Color(0.341f, 0.965f, 0.702f);
 
     [Header("Icons")]
-    public Sprite classIcon; 
+    public Sprite classIcon;
     public Sprite villageFrame;
 
     // some meta info
@@ -162,8 +162,8 @@ public partial class Player : Entity
     // Camera.main calls FindObjectWithTag each time. cache it!
     Camera cam;
 
-    [SyncVar, HideInInspector] public bool running = false; 
-    [SyncVar, HideInInspector] public bool chargingChakra = false; 
+    [SyncVar, HideInInspector] public bool running = false;
+    [SyncVar, HideInInspector] public bool chargingChakra = false;
     [SyncVar, HideInInspector] public bool blocking = false;
 
     // networkbehaviour ////////////////////////////////////////////////////////
@@ -212,7 +212,7 @@ public partial class Player : Entity
         {
             actuallyCasting = false;
             animator.SetInteger("AnimationIndex", 0);
-            if(stunTimeEnd < NetworkTime.time)
+            if (stunTimeEnd < NetworkTime.time)
             {
                 foreach (Skill skill in skills.skills)
                     if (skill.level > 0 && !(skill.data is PassiveSkill))
@@ -222,7 +222,7 @@ public partial class Player : Entity
                         {
                             actuallyCasting = true;
                             ignoreCastAnimation = skill.ignoreCastAnimation;
-                            if(skill.animationCount > 0) animator.SetInteger("AnimationIndex", combat.animationIndex % skill.animationCount);
+                            if (skill.animationCount > 0) animator.SetInteger("AnimationIndex", combat.animationIndex % skill.animationCount);
                         }
                     }
             }
@@ -240,9 +240,9 @@ public partial class Player : Entity
             }*/
 
             animator.SetBool("RUNNING", running);
-                animator.SetBool("MOVING", movement.IsMoving() && !mountControl.IsMounted());
-                animator.SetBool("CHARGING CHAKRA", state == States.ChargingChakra.ToString());
-                animator.SetBool("BLOCKING", state == States.Blocking.ToString());
+            animator.SetBool("MOVING", movement.IsMoving() && !mountControl.IsMounted());
+            animator.SetBool("CHARGING CHAKRA", state == States.ChargingChakra.ToString());
+            animator.SetBool("BLOCKING", state == States.Blocking.ToString());
             animator.SetBool("CASTING", (!ignoreCastAnimation && actuallyCasting));
             animator.SetBool("DEAD", state == "DEAD");
             animator.SetBool("STUNNED", state == "STUNNED");
@@ -433,13 +433,13 @@ public partial class Player : Entity
         if (chargingChakra) return States.ChargingChakra.ToString();
         if (blocking) return States.Blocking.ToString();
 
-        if (EventSkillFinished()) {} // don't care
-        if (EventMoveEnd()) {} // don't care
-        if (EventTradeDone()) {} // don't care
-        if (EventCraftingDone()) {} // don't care
-        if (EventRespawn()) {} // don't care
-        if (EventTargetDied()) {} // don't care
-        if (EventTargetDisappeared()) {} // don't care
+        if (EventSkillFinished()) { } // don't care
+        if (EventMoveEnd()) { } // don't care
+        if (EventTradeDone()) { } // don't care
+        if (EventCraftingDone()) { } // don't care
+        if (EventRespawn()) { } // don't care
+        if (EventTargetDied()) { } // don't care
+        if (EventTargetDisappeared()) { } // don't care
 
         return "IDLE"; // nothing interesting happened
     }
@@ -630,13 +630,13 @@ public partial class Player : Entity
                 }
             }
         }
-        if (EventMoveStart()) {} // don't care
-        if (EventSkillFinished()) {} // don't care
-        if (EventTradeDone()) {} // don't care
-        if (EventCraftingDone()) {} // don't care
-        if (EventRespawn()) {} // don't care
-        if (EventTargetDied()) {} // don't care
-        if (EventTargetDisappeared()) {} // don't care
+        if (EventMoveStart()) { } // don't care
+        if (EventSkillFinished()) { } // don't care
+        if (EventTradeDone()) { } // don't care
+        if (EventCraftingDone()) { } // don't care
+        if (EventRespawn()) { } // don't care
+        if (EventTargetDied()) { } // don't care
+        if (EventTargetDisappeared()) { } // don't care
 
         if (blocking) return States.Blocking.ToString();
 
@@ -792,12 +792,12 @@ public partial class Player : Entity
             // go back to IDLE
             return "IDLE";
         }
-        if (EventMoveEnd()) {} // don't care
-        if (EventTradeDone()) {} // don't care
-        if (EventCraftingStarted()) {} // don't care
-        if (EventCraftingDone()) {} // don't care
-        if (EventRespawn()) {} // don't care
-        if (EventSkillRequest()) {} // don't care
+        if (EventMoveEnd()) { } // don't care
+        if (EventTradeDone()) { } // don't care
+        if (EventCraftingStarted()) { } // don't care
+        if (EventCraftingDone()) { } // don't care
+        if (EventRespawn()) { } // don't care
+        if (EventSkillRequest()) { } // don't care
 
         return "CASTING"; // nothing interesting happened
     }
@@ -869,13 +869,13 @@ public partial class Player : Entity
             trading.Cleanup();
             return "IDLE";
         }
-        if (EventMoveEnd()) {} // don't care
-        if (EventSkillFinished()) {} // don't care
-        if (EventCraftingStarted()) {} // don't care
-        if (EventCraftingDone()) {} // don't care
-        if (EventRespawn()) {} // don't care
-        if (EventTradeStarted()) {} // don't care
-        if (EventSkillRequest()) {} // don't care
+        if (EventMoveEnd()) { } // don't care
+        if (EventSkillFinished()) { } // don't care
+        if (EventCraftingStarted()) { } // don't care
+        if (EventCraftingDone()) { } // don't care
+        if (EventRespawn()) { } // don't care
+        if (EventTradeStarted()) { } // don't care
+        if (EventSkillRequest()) { } // don't care
 
         return "TRADING"; // nothing interesting happened
     }
@@ -907,16 +907,16 @@ public partial class Player : Entity
             crafting.Craft();
             return "IDLE";
         }
-        if (EventCancelAction()) {} // don't care. user pressed craft, we craft.
-        if (EventTargetDisappeared()) {} // don't care
-        if (EventTargetDied()) {} // don't care
-        if (EventMoveEnd()) {} // don't care
-        if (EventSkillFinished()) {} // don't care
-        if (EventRespawn()) {} // don't care
-        if (EventTradeStarted()) {} // don't care
-        if (EventTradeDone()) {} // don't care
-        if (EventCraftingStarted()) {} // don't care
-        if (EventSkillRequest()) {} // don't care
+        if (EventCancelAction()) { } // don't care. user pressed craft, we craft.
+        if (EventTargetDisappeared()) { } // don't care
+        if (EventTargetDied()) { } // don't care
+        if (EventMoveEnd()) { } // don't care
+        if (EventSkillFinished()) { } // don't care
+        if (EventRespawn()) { } // don't care
+        if (EventTradeStarted()) { } // don't care
+        if (EventTradeDone()) { } // don't care
+        if (EventCraftingStarted()) { } // don't care
+        if (EventSkillRequest()) { } // don't care
 
         return "CRAFTING"; // nothing interesting happened
     }
@@ -946,17 +946,17 @@ public partial class Player : Entity
             Debug.LogWarning("Player " + name + " moved while dead. This should not happen.");
             return "DEAD";
         }
-        if (EventMoveEnd()) {} // don't care
-        if (EventSkillFinished()) {} // don't care
-        if (EventDied()) {} // don't care
-        if (EventCancelAction()) {} // don't care
-        if (EventTradeStarted()) {} // don't care
-        if (EventTradeDone()) {} // don't care
-        if (EventCraftingStarted()) {} // don't care
-        if (EventCraftingDone()) {} // don't care
-        if (EventTargetDisappeared()) {} // don't care
-        if (EventTargetDied()) {} // don't care
-        if (EventSkillRequest()) {} // don't care
+        if (EventMoveEnd()) { } // don't care
+        if (EventSkillFinished()) { } // don't care
+        if (EventDied()) { } // don't care
+        if (EventCancelAction()) { } // don't care
+        if (EventTradeStarted()) { } // don't care
+        if (EventTradeDone()) { } // don't care
+        if (EventCraftingStarted()) { } // don't care
+        if (EventCraftingDone()) { } // don't care
+        if (EventTargetDisappeared()) { } // don't care
+        if (EventTargetDied()) { } // don't care
+        if (EventSkillRequest()) { } // don't care
 
         return "DEAD"; // nothing interesting happened
     }
@@ -968,11 +968,11 @@ public partial class Player : Entity
         chakra.recover = (state == States.ChargingChakra.ToString());
         if (NetworkTime.time - lastCombatTime > 1f && combat.hitCount > 0) combat.hitCount = 0;
 
-        if (state == "IDLE")     return UpdateServer_IDLE();
-        if (state == "MOVING")   return UpdateServer_MOVING();
-        if (state == "CASTING")  return UpdateServer_CASTING();
-        if (state == "STUNNED")  return UpdateServer_STUNNED();
-        if (state == "TRADING")  return UpdateServer_TRADING();
+        if (state == "IDLE") return UpdateServer_IDLE();
+        if (state == "MOVING") return UpdateServer_MOVING();
+        if (state == "CASTING") return UpdateServer_CASTING();
+        if (state == "STUNNED") return UpdateServer_STUNNED();
+        if (state == "TRADING") return UpdateServer_TRADING();
         if (state == "CRAFTING") return UpdateServer_CRAFTING();
         if (state == "DEAD") return UpdateServer_DEAD();
         if (state == States.ChargingChakra.ToString()) return UpdateServer_CHARGINGCHAKRA();
@@ -1099,10 +1099,10 @@ public partial class Player : Entity
     {
         if (!isLocalPlayer) return;
 
-        if(skill.followUpSkill && false)
+        if (skill.followUpSkill && false)
         {
             int skillID = -1;
-            for(int i = 0; i < skills.skills.Count; i++)
+            for (int i = 0; i < skills.skills.Count; i++)
             {
                 if (skills.skills[i].hash == skill.followUpSkill.name.GetStableHashCode()) skillID = i;
             }

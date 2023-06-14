@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7961444174049636466}
   - component: {fileID: 5597092276588362490}
+  - component: {fileID: 873019857983532186}
   m_Layer: 0
   m_Name: Light 2D
   m_TagString: Untagged
@@ -49,7 +50,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.9811321, g: 0.8193534, b: 0.5322179, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: c1c6dc40a33047bdb51b09b397ca1190d18419879d22aaaf6bb93e14f3b30c9ddfbd3f9305497fe57b2fb9b885fcab32e3524db6bfaafba45d0c1b2b413bbd43f90fde5e00000000
@@ -111,6 +112,21 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &873019857983532186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7267564595825741805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283c7b97ebebd4e6493177a62f8199b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streetLight: {fileID: 5597092276588362490}
+  maxIntensity: 0.5
+  minIntensity: 0
 --- !u!1 &7969693421488372384
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +226,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.019561768, y: 0.2775421}
+  m_Offset: {x: -0.019561768, y: 0.3351364}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5163808, y: 0.03379323}
@@ -221,5 +237,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45770264, y: 0.6998749}
+  m_Size: {x: 0.45770264, y: 0.8150635}
   m_EdgeRadius: 0

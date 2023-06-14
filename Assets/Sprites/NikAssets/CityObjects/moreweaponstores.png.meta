@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: 9802ad5749ab344ddb945c187ff70212
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moreweaponstores_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 596
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa37677d6b49422b9cf9ada35ed67f6
+      internalID: 127651377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 596
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8627161707f345e383bdf1d9153ca0a
+      internalID: 682720758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 596
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7919d2e24604f50b5a2b88666e2f38
+      internalID: 1193781149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 596
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db57aec8d2aa4f7ab3d730c3467e428
+      internalID: -1422548602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 525
+        width: 101
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1c3ef20840a41f89b3a51d3eaba475
+      internalID: -1521893631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_5
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 525
+        width: 102
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550787baf9bcc4b49a0a7505286591fb
+      internalID: -1446193711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 333
+        height: 104
+      alignment: 9
+      pivot: {x: 0.496529, y: 0.25549728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269a10182faa7482381438766dfb2119
+      internalID: 1546908857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 509
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f37b7fafd0cd4e6abeb0a7132881056
+      internalID: -1238138232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_8
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 344
+        width: 210
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64730ec897fb84abd8fa1bde35047cf4
+      internalID: 1981560733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 334
+        height: 127
+      alignment: 9
+      pivot: {x: 0.38580117, y: 0.2724739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22062c32fd49843e8ac0d03b96d3cb1b
+      internalID: -1473781604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 268
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5d0fb2ba4434898849dd08e44253e4
+      internalID: 906949044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 168
+        width: 89
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c9bbc6200cd44eeaa9dbace6ebf8d3
+      internalID: 1901607141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_12
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 168
+        width: 95
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5042a4894e5dc49e084fd8694aec40ae
+      internalID: 595522889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 168
+        width: 71
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d13ad7db64d4e929f504cdc63b13d4
+      internalID: -295187118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 80
+        height: 106
+      alignment: 9
+      pivot: {x: 0.48555198, y: 0.20559008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2953ecf0d344fd5bc3cfa549ba547d
+      internalID: -534914051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 103
+        width: 82
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5140954, y: 0.21649414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f333810f6d8b24326b0762527b7332d0
+      internalID: 1724803100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 103
+        width: 87
+        height: 105
+      alignment: 9
+      pivot: {x: 0.51328534, y: 0.21379416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a03cc3390594145ad39873c3fe3027
+      internalID: 477084752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b208fa5100e341aaafcfdd17e25aeb9
+      internalID: -1319195455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_18
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 93
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d354c5e2c5243ddab8ceed59d0f0ec
+      internalID: 1492616257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_19
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 70
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c90280300f842b39842ea769ea7089
+      internalID: -285132138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 16
+        width: 85
+        height: 65
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.35774383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466717491715342c5a6fe6c694571c60
+      internalID: -323885699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 15
+        width: 81
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.34923935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055eba56ea71b4b1586751f5b52b7dac
+      internalID: 1024544284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moreweaponstores_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 15
+        width: 86
+        height: 69
+      alignment: 9
+      pivot: {x: 0.4731202, y: 0.33248818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dd5f920887f43e188599087a5271d1
+      internalID: 852568703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fe205f0fe8e034a619cf97a611b9e993
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      moreweaponstores_0: 127651377
+      moreweaponstores_1: 682720758
+      moreweaponstores_10: 906949044
+      moreweaponstores_11: 1901607141
+      moreweaponstores_12: 595522889
+      moreweaponstores_13: -295187118
+      moreweaponstores_14: -534914051
+      moreweaponstores_15: 1724803100
+      moreweaponstores_16: 477084752
+      moreweaponstores_17: -1319195455
+      moreweaponstores_18: 1492616257
+      moreweaponstores_19: -285132138
+      moreweaponstores_2: 1193781149
+      moreweaponstores_20: -323885699
+      moreweaponstores_21: 1024544284
+      moreweaponstores_22: 852568703
+      moreweaponstores_3: -1422548602
+      moreweaponstores_4: -1521893631
+      moreweaponstores_5: -1446193711
+      moreweaponstores_6: 1546908857
+      moreweaponstores_7: -1238138232
+      moreweaponstores_8: 1981560733
+      moreweaponstores_9: -1473781604
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
