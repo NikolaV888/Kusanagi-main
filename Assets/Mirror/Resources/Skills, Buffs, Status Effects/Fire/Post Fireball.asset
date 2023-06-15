@@ -40,7 +40,7 @@ MonoBehaviour:
     baseValue: 0
     bonusPerLevel: 0
   castTime:
-    baseValue: 0.4
+    baseValue: 1
     bonusPerLevel: 0
   selfStunTime:
     baseValue: 0

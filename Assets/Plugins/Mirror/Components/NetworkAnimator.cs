@@ -300,6 +300,12 @@ namespace Mirror
             return dirtyBits;
         }
 
+        //FREEZE ANIMATION
+        public void FreezeAnimation()
+        {
+            animator.speed = 0;
+        }
+
         bool WriteParameters(NetworkWriter writer, bool forceAll = false)
         {
             ulong dirtyBits = forceAll ? (~0ul) : NextDirtyBits();

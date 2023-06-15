@@ -14,6 +14,11 @@ public class WeatherSystem : MonoBehaviour
     public bool debugWeather = false;
     public weatherStates debugWeatherState = weatherStates.DayClear;
 
+    public void FreezeAnimation()
+    {
+        animator.speed = 0;
+    }
+
     private void Awake()
     {
 #if !UNITY_SERVER || UNITY_EDITOR

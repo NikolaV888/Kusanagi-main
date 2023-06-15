@@ -99,6 +99,7 @@ public partial class Player : Entity
     // localPlayer singleton for easier access from UI scripts etc.
     public static Player localPlayer;
 
+
     // speed
     public override float speed
     {
@@ -165,6 +166,10 @@ public partial class Player : Entity
     [SyncVar, HideInInspector] public bool running = false;
     [SyncVar, HideInInspector] public bool chargingChakra = false;
     [SyncVar, HideInInspector] public bool blocking = false;
+
+
+
+
 
     // networkbehaviour ////////////////////////////////////////////////////////
     public override void OnStartLocalPlayer()
@@ -1307,4 +1312,10 @@ public partial class Player : Entity
             }
         }
     }
+    /*
+    public void FreezeAnimation()
+    {
+        animator.speed = 0;
+    }*/
+
 }

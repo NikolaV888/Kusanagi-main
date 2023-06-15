@@ -482,6 +482,7 @@ namespace AllIn1SpriteShader
             if (sr == null && image == null) MissingRenderer();
         }
 
+
         private void GetAllChildren(Transform parent, ref List<Transform> transforms)
         {
             foreach (Transform child in parent)
@@ -617,6 +618,7 @@ namespace AllIn1SpriteShader
         Renderer normalMapRenderer;
         bool isSpriteRenderer;
         public void CreateAndAssignNormalMap()
+
         {
 #if UNITY_EDITOR
             if (GetComponent<TilemapRenderer>() != null)

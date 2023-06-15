@@ -20,6 +20,7 @@ MonoBehaviour:
   cancelCastIfTargetDied: 0
   allowMovement: 1
   canBeHotbarred: 1
+  increaseAnimationIndex: 0
   animationCount: 0
   predecessor: {fileID: 0}
   predecessorLevel: 1
@@ -51,6 +52,7 @@ MonoBehaviour:
     baseValue: 0
     bonusPerLevel: 0
   followUpSkill: {fileID: 11400000, guid: e03b948b1a730fa44afffdf7113b59db, type: 2}
+  isFollowup: 0
   casterVFX: {fileID: 0}
   targetVFX: {fileID: 0}
   ignoreCastAnimation: 1
