@@ -117,757 +117,757 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pants1_Idle_0
+      name: pants1_idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb124d44a24c149738ba8eebb4616d25
-      internalID: -296102974
+      spriteID: 46e06914466644e5eb96237432f35407
+      internalID: 15650197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_1
+      name: pants1_idle_1
       rect:
         serializedVersion: 2
         x: 200
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c62256315d8ef43cabfc531e9a2bbc3a
-      internalID: 2133885386
+      spriteID: 78654e89a3fd44bc7a1e6c1f96aa9fdd
+      internalID: -1980752341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_2
+      name: pants1_idle_2
       rect:
         serializedVersion: 2
         x: 400
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cac9f4572122453f95cac544b9dcd3a
-      internalID: 1549088195
+      spriteID: 976597fb5a8244778a4a7224d5ac1a2c
+      internalID: -1654537259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_3
+      name: pants1_idle_3
       rect:
         serializedVersion: 2
         x: 600
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 452175bf009004a0190f918c1620ecd7
-      internalID: 1761351488
+      spriteID: a1994a4b97daf471f953e9062bfe92bd
+      internalID: 244480706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_4
+      name: pants1_idle_4
       rect:
         serializedVersion: 2
         x: 800
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ded8be602b47c458caa17767e031a190
-      internalID: -1859509447
+      spriteID: 2e089e89ef49f4fb0a72355fd4286ee3
+      internalID: -1051871671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_5
+      name: pants1_idle_5
       rect:
         serializedVersion: 2
         x: 1000
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a481238166684de6882d261a239f169
-      internalID: 1641492765
+      spriteID: 7b0efeb2176c84f99870aaa4b5be7324
+      internalID: -1028177820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_6
+      name: pants1_idle_6
       rect:
         serializedVersion: 2
         x: 1200
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98daf45d74e8c4502b43473f0dd62950
-      internalID: 911239944
+      spriteID: 7ed8099a026f4444c829b64c6c380d4f
+      internalID: 1859268465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_7
+      name: pants1_idle_7
       rect:
         serializedVersion: 2
         x: 1400
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e80e6410af7644f10b74d8f4ecba01c9
-      internalID: -711888334
+      spriteID: aaf3abe75b0644842b153136965dc630
+      internalID: 1198845868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_8
+      name: pants1_idle_8
       rect:
         serializedVersion: 2
         x: 1600
         y: 600
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d973bd9c29a824bb7b3d53186da1dfde
-      internalID: 1002057518
+      spriteID: 274844629c3d24c6aabb4de0e7b7aca8
+      internalID: -1759804585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_9
+      name: pants1_idle_9
       rect:
         serializedVersion: 2
         x: 0
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a6119f003cb4feb8e4077d95c8465c
-      internalID: 1241849604
+      spriteID: 69337cb249814487a8af92545e06ab1e
+      internalID: 823893133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_10
+      name: pants1_idle_10
       rect:
         serializedVersion: 2
         x: 200
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f84e6769d266e464d927d27f9c0716b1
-      internalID: -43508410
+      spriteID: 8f337a81b76454d4b898e246f69ced11
+      internalID: -367856525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_11
+      name: pants1_idle_11
       rect:
         serializedVersion: 2
         x: 400
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a80bbfb550595469389be0335af50342
-      internalID: 469630941
+      spriteID: 329e7af349c464d859b061cb01906577
+      internalID: -1780917974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_12
+      name: pants1_idle_12
       rect:
         serializedVersion: 2
         x: 600
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55384de8c98ef4404a09fd0f8032ff53
-      internalID: 1920215521
+      spriteID: e50024d6954594273b27a5c4baa62626
+      internalID: -172189685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_13
+      name: pants1_idle_13
       rect:
         serializedVersion: 2
         x: 800
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a319f1e3b216b428d8927b8088941147
-      internalID: -760823840
+      spriteID: 69b66d8e54ec14fb1a5b22e50a31b683
+      internalID: -957302138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_14
+      name: pants1_idle_14
       rect:
         serializedVersion: 2
         x: 1000
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a2f0b8a8790d44a1967f8a5d84b8c78
-      internalID: -626305227
+      spriteID: c8bfc265be56a49efab9d9145f4a87f3
+      internalID: 664125857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_15
+      name: pants1_idle_15
       rect:
         serializedVersion: 2
         x: 1200
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6cee0bf397c34bf7849e8607082b782
-      internalID: -648919864
+      spriteID: d224df2ae4d7e465cb1f4c2511ab3623
+      internalID: 1467638314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_16
+      name: pants1_idle_16
       rect:
         serializedVersion: 2
         x: 1400
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afa46c5ec4215443a99bb3258ceeb9c2
-      internalID: 1844266884
+      spriteID: 1e37c4c4ac7c04cd7922f03ab2fec59c
+      internalID: 671115479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_17
+      name: pants1_idle_17
       rect:
         serializedVersion: 2
         x: 1600
         y: 400
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0719c04485984954bea8c73e4beacd5
-      internalID: -26223055
+      spriteID: f71d33887ac7348b3b144e7ba98b3f27
+      internalID: -304658031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_18
+      name: pants1_idle_18
       rect:
         serializedVersion: 2
         x: 0
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8604875881e0f4eb3817239ca5b9804c
-      internalID: -939203923
+      spriteID: 2330c08c118e3403b9a977ae0a7bb927
+      internalID: -1607234988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_19
+      name: pants1_idle_19
       rect:
         serializedVersion: 2
         x: 200
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b632728f11e475f9c2e5beda1c9bd5
-      internalID: 2088838986
+      spriteID: 17c4417fde81447bbb3f370aceaa4653
+      internalID: -667603389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_20
+      name: pants1_idle_20
       rect:
         serializedVersion: 2
         x: 400
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fa537ef4ed274013b6e3d642bb4ad48
-      internalID: -1928367642
+      spriteID: 663bf22841de8438882d4edbf4a5e6ea
+      internalID: -1698840963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_21
+      name: pants1_idle_21
       rect:
         serializedVersion: 2
         x: 600
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576cb51957a87451f8b0fbbe86f6ee8c
-      internalID: 1770716823
+      spriteID: 83e654a83559b4e85b8045e83ab9d832
+      internalID: -623794607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_22
+      name: pants1_idle_22
       rect:
         serializedVersion: 2
         x: 800
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 115ac2fcc63b2420e84f968dbcca987c
-      internalID: -395501156
+      spriteID: ca23e588df65a47778b06e287f203851
+      internalID: -1872715467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_23
+      name: pants1_idle_23
       rect:
         serializedVersion: 2
         x: 1000
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a00786d70e1574d55bc3cb5081cab13a
-      internalID: -446170213
+      spriteID: 6d7bf7f33485240df8c29a0493633283
+      internalID: -325597113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_24
+      name: pants1_idle_24
       rect:
         serializedVersion: 2
         x: 1200
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe1b0ed72a294a0ba8c737130796caf
-      internalID: 143304818
+      spriteID: d07b16b05cf0945eaa7b61029cd6bc3d
+      internalID: 881470103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_25
+      name: pants1_idle_25
       rect:
         serializedVersion: 2
         x: 1400
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 920b6093e1e82441f8f6e23df9043003
-      internalID: 992358303
+      spriteID: 54568deaa59df4b7eb83b8555796977e
+      internalID: -844509480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_26
+      name: pants1_idle_26
       rect:
         serializedVersion: 2
         x: 1600
         y: 200
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45a54632eb70e41d29f619363447cfd5
-      internalID: 842282723
+      spriteID: b3b0d1cf0f8654724a5dfb48c6ae1af3
+      internalID: -214191145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_27
+      name: pants1_idle_27
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51140981e139d40c49b9c70fa8288e1e
-      internalID: 8977505
+      spriteID: 81db48ce2bd604f18bb22ee240306958
+      internalID: -599749258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_28
+      name: pants1_idle_28
       rect:
         serializedVersion: 2
         x: 200
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd6f167e2fa7b401e88888bebbd2898f
-      internalID: 716295392
+      spriteID: 7add22007454a4e578c2b28d27efedf9
+      internalID: -510096259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_29
+      name: pants1_idle_29
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a01d58465d2d462c84671a314f68955
-      internalID: 354101387
+      spriteID: 6aaa0cac52ceb4b018e00e9039381fda
+      internalID: -2069764123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_30
+      name: pants1_idle_30
       rect:
         serializedVersion: 2
         x: 600
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff7d106098a224fd0b9a757eeae0da98
-      internalID: 331898804
+      spriteID: 6f92edb1b366e4afdb343f2a6ebf436c
+      internalID: -741260182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_31
+      name: pants1_idle_31
       rect:
         serializedVersion: 2
         x: 800
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25717a04fb01a4b2fa847a5a5cbdbd08
-      internalID: 774232163
+      spriteID: 55b3ac259b9d7463da0b76999ff5dbc6
+      internalID: 1269222616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_32
+      name: pants1_idle_32
       rect:
         serializedVersion: 2
         x: 1000
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7d7710bc37c479cbb2ae340e07c47f
-      internalID: 38169340
+      spriteID: eed67156960f34552be13d8a83884b6f
+      internalID: -1182870283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_33
+      name: pants1_idle_33
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef718e4bc14d7414784c64503a8e4dc4
-      internalID: -331340398
+      spriteID: 0a4460af44c7841f39c206ecc904d493
+      internalID: -514937657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_34
+      name: pants1_idle_34
       rect:
         serializedVersion: 2
         x: 1400
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 733f8e08f7f304e62b70b5222f41a0cb
-      internalID: 1626142444
+      spriteID: 02c8dd6f27f5741b3ac4c1d9255d042a
+      internalID: -1172094553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pants1_Idle_35
+      name: pants1_idle_35
       rect:
         serializedVersion: 2
         x: 1600
         y: 0
         width: 200
         height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d19c090a3ee4dcead3e8ee5bc9f829
-      internalID: -31733912
+      spriteID: e38e3c553819947d683d6ba0bf742727
+      internalID: -133780160
       vertices: []
       indices: 
       edges: []
@@ -875,7 +875,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 341b62f2e064c4f66a7bab1403511264
+    spriteID: 7db1f85e4f246406098c8bba76e52f62
     internalID: 0
     vertices: []
     indices: 
@@ -883,42 +883,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pants1_Idle_0: -296102974
-      pants1_Idle_1: 2133885386
-      pants1_Idle_10: -43508410
-      pants1_Idle_11: 469630941
-      pants1_Idle_12: 1920215521
-      pants1_Idle_13: -760823840
-      pants1_Idle_14: -626305227
-      pants1_Idle_15: -648919864
-      pants1_Idle_16: 1844266884
-      pants1_Idle_17: -26223055
-      pants1_Idle_18: -939203923
-      pants1_Idle_19: 2088838986
-      pants1_Idle_2: 1549088195
-      pants1_Idle_20: -1928367642
-      pants1_Idle_21: 1770716823
-      pants1_Idle_22: -395501156
-      pants1_Idle_23: -446170213
-      pants1_Idle_24: 143304818
-      pants1_Idle_25: 992358303
-      pants1_Idle_26: 842282723
-      pants1_Idle_27: 8977505
-      pants1_Idle_28: 716295392
-      pants1_Idle_29: 354101387
-      pants1_Idle_3: 1761351488
-      pants1_Idle_30: 331898804
-      pants1_Idle_31: 774232163
-      pants1_Idle_32: 38169340
-      pants1_Idle_33: -331340398
-      pants1_Idle_34: 1626142444
-      pants1_Idle_35: -31733912
-      pants1_Idle_4: -1859509447
-      pants1_Idle_5: 1641492765
-      pants1_Idle_6: 911239944
-      pants1_Idle_7: -711888334
-      pants1_Idle_8: 1002057518
-      pants1_Idle_9: 1241849604
+      pants1_idle_0: 15650197
+      pants1_idle_1: -1980752341
+      pants1_idle_10: -367856525
+      pants1_idle_11: -1780917974
+      pants1_idle_12: -172189685
+      pants1_idle_13: -957302138
+      pants1_idle_14: 664125857
+      pants1_idle_15: 1467638314
+      pants1_idle_16: 671115479
+      pants1_idle_17: -304658031
+      pants1_idle_18: -1607234988
+      pants1_idle_19: -667603389
+      pants1_idle_2: -1654537259
+      pants1_idle_20: -1698840963
+      pants1_idle_21: -623794607
+      pants1_idle_22: -1872715467
+      pants1_idle_23: -325597113
+      pants1_idle_24: 881470103
+      pants1_idle_25: -844509480
+      pants1_idle_26: -214191145
+      pants1_idle_27: -599749258
+      pants1_idle_28: -510096259
+      pants1_idle_29: -2069764123
+      pants1_idle_3: 244480706
+      pants1_idle_30: -741260182
+      pants1_idle_31: 1269222616
+      pants1_idle_32: -1182870283
+      pants1_idle_33: -514937657
+      pants1_idle_34: -1172094553
+      pants1_idle_35: -133780160
+      pants1_idle_4: -1051871671
+      pants1_idle_5: -1028177820
+      pants1_idle_6: 1859268465
+      pants1_idle_7: 1198845868
+      pants1_idle_8: -1759804585
+      pants1_idle_9: 823893133
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

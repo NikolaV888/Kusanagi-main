@@ -20,7 +20,7 @@ public class CompiledSpriteRenderer : MonoBehaviour
     public void RefreshSpriteRenderer()
     {
 
-        for (int i = 0; i < renderers.Length; i++)
+        for(int i = 0; i < renderers.Length; i++)
         {
             for (int a = 0; a < renderers[i].spritesToAnimate.Count; a++)
             {
