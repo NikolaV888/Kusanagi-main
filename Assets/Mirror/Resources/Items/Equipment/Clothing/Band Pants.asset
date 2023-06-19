@@ -31,4 +31,4 @@ MonoBehaviour:
   defenseBonus: 0
   blockChanceBonus: 0
   criticalChanceBonus: 0
-  spriteSheet: {fileID: 2800000, guid: 2e27cddd2fa703146bc4c016430c5373, type: 3}
+  spriteSheet: {fileID: 2800000, guid: 223d9659c26d64776b97d31ff0f2db44, type: 3}

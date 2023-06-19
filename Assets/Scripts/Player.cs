@@ -108,7 +108,7 @@ public partial class Player : Entity
             if (mountControl.activeMount != null && mountControl.activeMount.health.current > 0) return mountControl.activeMount.speed;
 
             // mount speed if mounted, regular speed otherwise
-            return running ? base.speed * 4f
+            return running ? base.speed * 5f
                    : base.speed;
         }
     }
@@ -251,8 +251,9 @@ public partial class Player : Entity
             animator.SetBool("CASTING", (!ignoreCastAnimation && actuallyCasting));
             animator.SetBool("DEAD", state == "DEAD");
             animator.SetBool("STUNNED", state == "STUNNED");
-            animator.SetFloat("LookX", Utils.OrthonormalVector2(lookDirection, lookDirection).x);
-            animator.SetFloat("LookY", Utils.OrthonormalVector2(lookDirection, lookDirection).y);
+            animator.SetFloat("LookX", lookDirection.x);
+            animator.SetFloat("LookY", lookDirection.y);
+
         }
     }
 
@@ -535,17 +536,25 @@ public partial class Player : Entity
             //skills.CancelCast(); // just in case
             return "CRAFTING";
         }
-        if (EventMoveStart()) { }
-        if (chargingChakra) { }
+        if (EventMoveStart())
+        {
+            // cancel casting (if any)
+            //skills.CancelCast();
+            return "MOVING";
+        }
+        if (!blocking)
+        {
+            return "IDLE";
+        }
+
         if (EventSkillFinished()) { } // don't care
+        if (chargingChakra) { }
         if (EventMoveEnd()) { } // don't care
         if (EventTradeDone()) { } // don't care
         if (EventCraftingDone()) { } // don't care
         if (EventRespawn()) { } // don't care
         if (EventTargetDied()) { } // don't care
         if (EventTargetDisappeared()) { } // don't care
-
-        if (!blocking) return "IDLE";
 
         return States.Blocking.ToString();
     }
