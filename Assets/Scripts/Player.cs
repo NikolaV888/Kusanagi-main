@@ -1,3 +1,15 @@
+// Description: This script is attached to the player prefab and handles all
+// the player logic like movement, skills, combat, etc.
+//
+// Note: we use NetworkBehaviour for commands, but MonoBehaviour for Update etc.
+//       -> NetworkBehaviour needs IsLocalPlayer, but we don't want to have to
+//          drag all prefabs into NetworkManager's spawnable prefabs list just
+//          for that. so we use MonoBehaviour and set IsLocalPlayer manually.
+//          (it's just a convenience variable)
+//
+
+
+
 // All player logic was put into this class. We could also split it into several
 // smaller components, but this would result in many GetComponent calls and a
 // more complex syntax.
@@ -19,6 +31,8 @@
 // buggy and because it can't really react to movement stops fast enough, which
 // results in moonwalking. Not synchronizing animations over the network will
 // also save us bandwidth
+
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -112,6 +126,8 @@ public partial class Player : Entity
                    : base.speed;
         }
     }
+
+    
 
     // item cooldowns
     // it's based on a 'cooldownCategory' that can be set in ScriptableItems.
@@ -449,6 +465,7 @@ public partial class Player : Entity
         return "IDLE"; // nothing interesting happened
     }
 
+
     [Server]
     string UpdateServer_CHARGINGCHAKRA()
     {
@@ -503,6 +520,7 @@ public partial class Player : Entity
         return States.ChargingChakra.ToString();
     }
 
+
     [Server]
     string UpdateServer_BLOCKING()
     {
@@ -546,9 +564,17 @@ public partial class Player : Entity
         if (EventTargetDisappeared()) { } // don't care
 
         if (!blocking) return "IDLE";
+        //stop looping animation
+        if (isLocalPlayer)
+        {
+            animator.SetBool("Blocking", false);
+        }
+        
 
         return States.Blocking.ToString();
     }
+
+
 
     [Server]
     string UpdateServer_MOVING()
